@@ -1,0 +1,757 @@
+/**
+ * Workeera Common Styles CSS
+ */
+:root {
+  --workeera-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* Brand palette — indigo/periwinkle family matching the Workeera icon
+     (replaces the previous default blues). */
+  --workeera-primary-color: #4f46e5;
+  --workeera-primary-color-hover: #4338ca;
+  --workeera-primary-textcolor: #0f172a;
+  --workeera-success-color: #16a34a;
+  --workeera-danger-color: #dc2626;
+  --workeera-warning-color: #f59e0b;
+  --workeera-info-color: #6366f1;
+  --workeera-lightsuccess-color: #d8ffe1;
+  --workeera-lightdanger-color: #ffe4e7;
+  --workeera-lightwarning-color: #fff4d5;
+  --workeera-lightinfo-color: #e0e7ff;
+  --workeera-text-muted: #475569;
+  --workeera-text-light: #64748b;
+  --workeera-bg-main: #ffffff;
+  --workeera-bg-soft: #f8fafc;
+  --workeera-bg-muted: #f1f5f9;
+  --workeera-border-color: #e5e7eb;
+  --workeera-border-radius-sm: 4px;
+  --workeera-border-radius-md: 6px;
+  --workeera-border-radius-lg: 10px;
+  --workeera-space-1: 4px;
+  --workeera-space-2: 8px;
+  --workeera-space-3: 16px;
+  --workeera-space-4: 24px;
+  --workeera-space-5: 32px;
+  --workeera-space-6: 48px;
+  --workeera-remove-icon: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkElEQVR4nO2UQRJAMAxFewkd7n8SNkbVhoXjPNNhwygJtcFfdabJf2mSqTG/vimgAjxgBbEW6IBSA3DMGo4gi3mICWo0gAzol8QRKAQxuRhwBuGu+RGEVOaRPg+b8+kSXHlJmsoFgCKVuX2sRXsDlazwZXMTv9NBJKvIHQjQSvrMej5OA6iVn50POWLAr3dpAubEoK1V1sJIAAAAAElFTkSuQmCC');
+  --workeera-container-width: 1280px;
+}
+
+/**
+ * Global styles
+ */
+.workeera-common-wrapper *,
+.workeera-common-wrapper *::before,
+.workeera-common-wrapper *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.workeera-common-wrapper a {
+  color: var(--workeera-primary-color);
+}
+
+.workeera-common-wrapper a:hover,
+.workeera-common-wrapper a:active,
+.workeera-common-wrapper a:focus {
+  color: var(--workeera-primary-color-hover);
+}
+
+.workeera-page .workeera-btn {
+  display: inline-block;
+  background-color: var(--workeera-primary-color);
+  color: #ffffff;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: var(--workeera-border-radius-sm);
+}
+
+.workeera-page .workeera-btn.workeera-small-btn {
+  padding: 0 10px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+}
+
+.workeera-page .workeera-btn.workeera-large-btn {
+  padding: 0 20px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  border-radius: var(--workeera-border-radius-md);
+}
+
+.workeera-page .workeera-btn:hover,
+.workeera-page .workeera-btn:active,
+.workeera-page .workeera-btn:focus {
+  background-color: var(--workeera-primary-color-hover);
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.workeera-btn-full {
+  width: 100%;
+}
+
+.workeera-container {
+  max-width: var(--workeera-container-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--workeera-space-4);
+  padding-right: var(--workeera-space-4);
+}
+
+.workeera-hide {
+  display: none !important;
+}
+
+.workeera-user-form {
+  position: relative;
+}
+
+.workeera-user-form.ajax-processing button[type="submit"] {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.workeera-user-form.ajax-processing.workeera-withbtn-inline-lodr button[type="submit"] {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/*
+ * Grid styles
+ */
+.workeera-grid-two-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.workeera-grid-two-one {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+}
+
+.workeera-grid-three-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+/**
+ * Popup styles
+ */
+.workeera-modal-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+
+body.workeera-popup-active {
+  overflow: hidden;
+}
+
+.workeera-modal-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.workeera-modal-container .workeera-modal-inner-area {
+  display: flex;
+  width: 450px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.workeera-modal-container .workeera-modal-content-area {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-height: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.workeera-modal-container .workeera-modal-content-area .workeera-modalinit-con {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.workeera-popup-hide {
+  display: none;
+}
+
+.workeera-popup-closebtn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  top: -20px;
+  right: -18px;
+  color: #fff;
+  background-color: var(--workeera-danger-color);
+  border-radius: 999px;
+}
+
+.workeera-popup-closebtn .workeera-remove-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: var(--workeera-remove-icon);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workeera-popup-closebtn:hover,
+.workeera-popup-closebtn:focus,
+.workeera-popup-closebtn:active {
+  color: #fff;
+}
+
+/**
+ * Loader styles
+ */
+.workeera-loder-con {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.768627451);
+  z-index: 9;
+}
+
+.workeera-loder-con.inline-loder {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  background: transparent;
+}
+
+.workeera-loder-con .workeera-loder-iner {
+  display: flex;
+  width: 40px;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.workeera-loder-con.inline-loder .workeera-loder-iner {
+  width: 25px;
+}
+
+.workeera-loder-con .workeera-loder-iner .workeera-loader {
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 7px solid var(--workeera-primary-color);
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  /* Safari */
+  animation: workeera-spin 1s linear infinite;
+}
+
+.workeera-loder-con.inline-loder .workeera-loder-iner .workeera-loader {
+  border: 4px solid #c9c9c9;
+  border-radius: 50%;
+  border-top: 4px solid #ffffff;
+  width: 25px;
+  height: 25px;
+}
+
+@keyframes workeera-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+ * Listing Loader
+ */
+.workeera-listin-loadr>div span {
+  animation-name: workeera_listin_loder_animate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background: linear-gradient(to right, #eee 8%, #ddd 18%, #eee 33%);
+  background-color: #ccc;
+  background-size: 800px 100px;
+}
+
+@-moz-keyframes workeera_listin_loder_animate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@-webkit-keyframes workeera_listin_loder_animate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@-o-keyframes workeera_listin_loder_animate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@keyframes workeera_listin_loder_animate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/*
+ * Confirm Popup
+ */
+.workeera-confirm-popup-btns {
+  display: flex;
+  padding: 20px 0 0;
+  width: 100%;
+  justify-content: center;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+
+.workeera-confirm-popup-btns button {
+  padding: 5px 20px;
+  font-size: 80%;
+  border: none;
+  cursor: pointer;
+}
+
+.workeera-confirm-popup-btns .workeera-cancel-act {
+  background-color: #d2d2d2;
+  color: #222;
+  border-radius: 2px;
+}
+
+.workeera-confirm-popup-btns .workeera-delitm-btn {
+  background-color: var(--workeera-danger-color);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.workeera-confirmsg-con {
+  font-size: 15px;
+}
+
+/*
+ * Action message
+ */
+.workeera-alert-msg-wrap {
+  max-width: 320px;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  z-index: 99999;
+}
+
+.workeera-alert-msg.workeera-alert-hide {
+  animation: workeera_fade_in_right 2s;
+  opacity: 0;
+}
+
+.workeera-alert-msg.workeera-alert-hide::before {
+  display: none;
+}
+
+.workeera-alert-msg {
+  position: relative;
+  font-family: var(--workeera-font-family);
+  font-size: 14px;
+  min-width: 180px;
+  max-width: 280px;
+  color: #ffffff;
+  background-color: var(--workeera-warning-color);
+  animation: workeera_fade_in_left 2s;
+  border-radius: var(--workeera-border-radius-sm);
+  padding: 14px 14px 16px;
+  margin-top: 5px;
+}
+
+.workeera-alert-msg::before {
+  animation: workeera_bar_slide 6s infinite;
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 14px;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in
+}
+
+.workeera-alert-msg strong {
+  color: #ffffff;
+}
+
+.workeera-alert-msg.workeera-alert-success {
+  background-color: var(--workeera-success-color);
+}
+
+.workeera-alert-msg.workeera-alert-danger {
+  background-color: var(--workeera-danger-color);
+}
+
+@keyframes workeera_fade_in_left {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0)
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+  }
+}
+
+@keyframes workeera_fade_in_right {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0)
+  }
+}
+
+@keyframes workeera_bar_slide {
+  0% {
+    width: 0
+  }
+
+  100% {
+    width: 100%
+  }
+}
+
+/*
+ * Advance Form Fields
+ */
+.workeera-form-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.workeera-form-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.workeera-btn-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.workeera-btn-slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked+.workeera-btn-slider {
+  background-color: var(--workeera-info-color);
+}
+
+input:checked+.workeera-btn-slider::before {
+  transform: translateX(26px);
+}
+
+/*
+ * Checkboxes + Radio styles
+ */
+.workeera-form-optbtns .workeera-form-optbtn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.workeera-form-optbtns .workeera-form-optbtn input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.workeera-form-optbtns .workeera-form-optbtn .workeera-chkinp-chkmrk {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.workeera-form-optbtns .workeera-form-optbtn input:checked+.workeera-chkinp-chkmrk {
+  background-color: var(--workeera-primary-color);
+  border-color: var(--workeera-primary-color);
+}
+
+.workeera-form-optbtns .workeera-form-optbtn input:checked+.workeera-chkinp-chkmrk::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.workeera-cant-perform-msgbx {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.workeera-cant-perform-msgbx p {
+  font-size: 14px;
+  color: var(--workeera-danger-color);
+}
+
+/*
+ * Popover styles
+ */
+.workeera-popover-domelem .workeera-popover-holder {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  max-width: 250px;
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  transition: opacity 0.6s;
+}
+
+.workeera-popover-domelem .workeera-popover-holder.workeera-bottom-popover {
+  flex-direction: column-reverse;
+}
+
+.workeera-popover-domelem .workeera-popover-holder .workeera-popover-content {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.workeera-popover-domelem .workeera-popover-holder .workeera-popover-arrow {
+  border-width: 8px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.workeera-popover-domelem .workeera-popover-holder.workeera-bottom-popover .workeera-popover-arrow {
+  border-color: transparent transparent #333 transparent;
+}
+
+.workeera-popover-domelem.workeera-popover-hovered .workeera-popover-holder {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+ * Input Calendar styles
+ */
+.workeera-calendarinput-wrap {
+  position: relative;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-header select {
+  display: inline-block;
+  font-size: 14px;
+  width: 60px;
+  padding: 2px;
+  margin: 0;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-header .workeera-monthchnger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-header .workeera-monthchnger-btn i {
+  font-size: 12px;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-weekday {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px;
+  text-align: center;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-day {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-day {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-day.workeera-disabled {
+  visibility: hidden;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-day.workeera-disabled-date {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.workeera-calendarinput-wrap .workeera-calendar-popup .workeera-calendar-day.workeera-selected {
+  background: var(--workeera-primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .workeera-container {
+    padding-left: var(--workeera-space-3);
+    padding-right: var(--workeera-space-3);
+  }
+
+  .workeera-grid-two-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .workeera-grid-two-one {
+    grid-template-columns: 1fr;
+  }
+
+  .workeera-grid-three-cols {
+    grid-template-columns: 1fr;
+  }
+}

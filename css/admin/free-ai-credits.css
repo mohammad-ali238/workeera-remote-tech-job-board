@@ -1,0 +1,207 @@
+/**
+ * Workeera — Free AI Credits admin page.
+ */
+
+.workeera-fac-wrap {
+	max-width: 900px;
+}
+
+/* Hero ------------------------------------------------------------------- */
+.workeera-fac-hero {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	padding: 26px 28px;
+	margin: 12px 0 24px;
+	border-radius: 16px;
+	color: #fff;
+	background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #db2777 100%);
+	box-shadow: 0 16px 40px rgba(79, 70, 229, .28);
+}
+.workeera-fac-hero-icon {
+	flex: 0 0 auto;
+	width: 58px;
+	height: 58px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 14px;
+	background: rgba(255, 255, 255, .16);
+}
+.workeera-fac-hero h1 {
+	margin: 0 0 4px;
+	color: #fff;
+	font-size: 22px;
+	line-height: 1.25;
+}
+.workeera-fac-hero p {
+	margin: 0;
+	color: rgba(255, 255, 255, .88);
+	font-size: 14px;
+	line-height: 1.55;
+	max-width: 640px;
+}
+
+/* Cards ------------------------------------------------------------------ */
+.workeera-fac-card {
+	background: #fff;
+	border: 1px solid #e6e8f0;
+	border-radius: 14px;
+	padding: 24px 26px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 8px rgba(15, 23, 42, .04);
+}
+.workeera-fac-card h2 {
+	margin: 0 0 8px;
+	font-size: 17px;
+}
+.workeera-fac-muted {
+	color: #64748b;
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+/* Claim form ------------------------------------------------------------- */
+.workeera-fac-form {
+	display: flex;
+	gap: 10px;
+	margin-top: 16px;
+	flex-wrap: wrap;
+}
+.workeera-fac-email {
+	flex: 1;
+	min-width: 240px;
+	padding: 10px 14px;
+	border: 1px solid #cbd5e1;
+	border-radius: 9px;
+	font-size: 14px;
+}
+.workeera-fac-email:focus {
+	border-color: #4f46e5;
+	box-shadow: 0 0 0 1px #4f46e5;
+	outline: none;
+}
+.workeera-fac-send-btn.button-primary {
+	background: #4f46e5;
+	border-color: #4338ca;
+	padding: 4px 20px;
+	height: auto;
+}
+
+.workeera-fac-pending {
+	margin-top: 18px;
+	padding: 16px 18px;
+	border-radius: 10px;
+	background: #eef2ff;
+	border: 1px solid #c7d2fe;
+}
+.workeera-fac-pending-note {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: #3730a3;
+	font-size: 13.5px;
+	line-height: 1.55;
+	margin-bottom: 12px;
+}
+.workeera-fac-spinner {
+	flex: 0 0 auto;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #c7d2fe;
+	border-top-color: #4f46e5;
+	border-radius: 50%;
+	animation: workeera-fac-spin .8s linear infinite;
+}
+@keyframes workeera-fac-spin {
+	to { transform: rotate(360deg); }
+}
+
+.workeera-fac-notice {
+	margin-top: 14px;
+	padding: 10px 14px;
+	border-radius: 8px;
+	font-size: 13px;
+}
+.workeera-fac-notice.is-error { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
+.workeera-fac-notice.is-info { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+.workeera-fac-notice.is-success { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+
+/* Active state ----------------------------------------------------------- */
+.workeera-fac-active-top {
+	display: flex;
+	gap: 28px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.workeera-fac-meter {
+	flex: 1;
+	min-width: 240px;
+}
+.workeera-fac-meter-num {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+}
+.workeera-fac-meter-num strong {
+	font-size: 40px;
+	line-height: 1;
+	color: #4f46e5;
+}
+.workeera-fac-meter-num span {
+	font-size: 13px;
+	color: #64748b;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+}
+.workeera-fac-bar {
+	margin: 12px 0 6px;
+	height: 10px;
+	border-radius: 999px;
+	background: #eef2ff;
+	overflow: hidden;
+}
+.workeera-fac-bar span {
+	display: block;
+	height: 100%;
+	border-radius: 999px;
+	background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+.workeera-fac-meter-foot {
+	font-size: 12px;
+	color: #64748b;
+}
+.workeera-fac-facts {
+	margin: 0;
+	flex: 0 0 auto;
+	min-width: 200px;
+}
+.workeera-fac-facts li {
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 7px 0;
+	border-bottom: 1px solid #eef1f6;
+	font-size: 13px;
+}
+.workeera-fac-facts li:last-child { border-bottom: none; }
+.workeera-fac-facts li span { color: #64748b; }
+.workeera-fac-ok { color: #16a34a; }
+.workeera-fac-hint { margin-top: 18px; }
+
+/* Usage table ------------------------------------------------------------ */
+.workeera-fac-usage table { margin-top: 6px; border-radius: 8px; overflow: hidden; }
+.workeera-fac-tag {
+	display: inline-block;
+	padding: 1px 9px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .03em;
+}
+.workeera-fac-tag-success { background: #dcfce7; color: #15803d; }
+.workeera-fac-tag-refunded { background: #fef9c3; color: #a16207; }
+.workeera-fac-tag-failed { background: #fee2e2; color: #b91c1c; }
+
+.workeera-fac-flash { margin: 14px 0 4px; }

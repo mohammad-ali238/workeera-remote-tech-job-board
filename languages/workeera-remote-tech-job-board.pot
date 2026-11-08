@@ -1,0 +1,5429 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Workeera – Remote Tech Job Board\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-21 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.4; wp-7.0; php-8.3.30\n"
+"X-Domain: workeera-remote-tech-job-board"
+
+#. 1: used credits, 2: total credits
+#: admin/free-ai-credits.php:620
+#, php-format
+msgid "%1$d of %2$d used"
+msgstr ""
+
+#. %s: taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:990
+#, php-format
+msgid "%s added successfully."
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/class-importdata.php:117
+#, php-format
+msgid "%s data removed successfully."
+msgstr ""
+
+#. %s: taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:1135
+#, php-format
+msgid "%s deleted successfully."
+msgstr ""
+
+#. %s: number of jobs posted for this company
+#: includes/user-dashboard/my-companies.php:307
+#, php-format
+msgid "%s job"
+msgid_plural "%s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:324
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:319
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#. %s: salary period e.g. Hourly
+#: includes/class-listings.php:1248
+#, php-format
+msgid "%s Salary"
+msgstr ""
+
+#. %s: salary range title (e.g. Hourly, Monthly)
+#: admin/settings/general-settings.php:295
+#, php-format
+msgid "%s Salary range"
+msgstr ""
+
+#. %s: taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:1097
+#, php-format
+msgid "%s updated successfully."
+msgstr ""
+
+#. %s: salary period label e.g. Hour / Month
+#: includes/class-post-detail.php:590
+#, php-format
+msgid "/ %s"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:167
+msgid "10 MB"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:165
+msgid "2 MB"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:168
+msgid "20 MB"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:166
+msgid "5 MB"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:169
+msgid "50 MB"
+msgstr ""
+
+#: includes/company-functions.php:380
+msgid "A company with the same name or website already exists."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A complete AI powered job board solution for WordPress. Turns any WordPress "
+"site into a fully featured job board. Employers can register, post jobs and "
+"review applications from a dedicated front-end dashboard. Candidates can "
+"build their profile, upload CVs, browse jobs, and apply with a single click."
+msgstr ""
+
+#: includes/company-functions.php:345
+msgid "A URL is longer than the 200-character limit."
+msgstr ""
+
+#: includes/class-job-applications.php:1013
+msgid "A valid email address is required."
+msgstr ""
+
+#: admin/settings/general-settings.php:247
+msgid "Abbreviated (k notation)"
+msgstr ""
+
+#: includes/company-functions.php:681
+#: includes/user-dashboard/employer-profile.php:400
+#: includes/user-dashboard/job-posting.php:852
+#: includes/user-dashboard/resume-detail.php:627
+msgid "Action failed. File type not allowed to upload."
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:112
+msgid "Active Filters"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:384
+msgid "Add a company"
+msgstr ""
+
+#: includes/post-types.php:34 includes/post-types.php:74
+msgid "Add New"
+msgstr ""
+
+#. %s: taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:225
+#: admin/taxonomies/common-taxonomy.php:291
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/post-types.php:75
+msgid "Add new candidate"
+msgstr ""
+
+#: includes/post-types.php:35
+msgid "Add new job"
+msgstr ""
+
+#. %s: currently installed addon version
+#: admin/addons.php:430
+#, php-format
+msgctxt "Addons page"
+msgid "(installed: %s)"
+msgstr ""
+
+#: admin/addons.php:334
+msgctxt "Addons page"
+msgid "Activate"
+msgstr ""
+
+#: admin/addons.php:97
+msgctxt "Addons page"
+msgid "Activating…"
+msgstr ""
+
+#: admin/addons.php:339
+msgctxt "Addons page"
+msgid "Active ✓"
+msgstr ""
+
+#: admin/addons.php:539
+msgctxt "Addons page"
+msgid "Addon activated."
+msgstr ""
+
+#: admin/addons.php:513
+msgctxt "Addons page"
+msgid "Addon installed successfully."
+msgstr ""
+
+#: admin/addons.php:529
+msgctxt "Addons page"
+msgid "Addon is not installed."
+msgstr ""
+
+#: admin/addons.php:492
+msgctxt "Addons page"
+msgid "Addons list refreshed."
+msgstr ""
+
+#. %d: HTTP status code
+#: admin/addons.php:172
+msgctxt "Addons page"
+msgid "Addons server returned an error (HTTP %d)."
+msgstr ""
+
+#: admin/addons.php:99 admin/addons.php:360
+msgctxt "Addons page"
+msgid "Check for updates"
+msgstr ""
+
+#: admin/addons.php:98
+msgctxt "Addons page"
+msgid "Checking…"
+msgstr ""
+
+#: admin/addons.php:576
+msgctxt "Addons page"
+msgid "Could not access the filesystem."
+msgstr ""
+
+#: admin/addons.php:561
+msgctxt "Addons page"
+msgid "Could not download the addon package."
+msgstr ""
+
+#: admin/addons.php:211
+msgctxt "Addons page"
+msgid "Could not load addons from the server."
+msgstr ""
+
+#: admin/addons.php:583
+msgctxt "Addons page"
+msgid "Could not save the addon package."
+msgstr ""
+
+#: admin/addons.php:326
+msgctxt "Addons page"
+msgid "Install"
+msgstr ""
+
+#: admin/addons.php:95
+msgctxt "Addons page"
+msgid "Installing…"
+msgstr ""
+
+#: admin/addons.php:391
+msgctxt "Addons page"
+msgid "No addons are available yet."
+msgstr ""
+
+#: admin/addons.php:455
+msgctxt "Addons page"
+msgid "Security check failed."
+msgstr ""
+
+#: admin/addons.php:100
+msgctxt "Addons page"
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: admin/addons.php:602
+msgctxt "Addons page"
+msgid "The addon package could not be installed."
+msgstr ""
+
+#: admin/addons.php:176
+msgctxt "Addons page"
+msgid "Too many requests. Please wait a minute and try again."
+msgstr ""
+
+#: admin/addons.php:471
+msgctxt "Addons page"
+msgid "Unknown addon."
+msgstr ""
+
+#: admin/addons.php:330
+msgctxt "Addons page"
+msgid "Update"
+msgstr ""
+
+#: admin/addons.php:96
+msgctxt "Addons page"
+msgid "Updating…"
+msgstr ""
+
+#. %s: addon version number
+#: admin/addons.php:426
+#, php-format
+msgctxt "Addons page"
+msgid "Version %s"
+msgstr ""
+
+#: admin/addons.php:359
+msgctxt "Addons page"
+msgid "Workeera Addons"
+msgstr ""
+
+#: admin/addons.php:458
+msgctxt "Addons page"
+msgid "You are not allowed to manage addons."
+msgstr ""
+
+#: admin/job-applications.php:547
+msgctxt "admin"
+msgid "Apply"
+msgstr ""
+
+#: admin/job-applications.php:541
+msgctxt "admin"
+msgid "Bulk actions"
+msgstr ""
+
+#: admin/job-applications.php:108
+msgctxt "admin"
+msgid "Search Applications"
+msgstr ""
+
+#: admin/job-applications.php:539
+msgctxt "admin"
+msgid "Select bulk action"
+msgstr ""
+
+#. %s: count of deleted applications
+#: admin/job-applications.php:263
+#, php-format
+msgctxt "admin applications"
+msgid "%s applications deleted."
+msgstr ""
+
+#: admin/job-applications.php:611
+msgctxt "admin applications"
+msgid "All Employers"
+msgstr ""
+
+#: admin/job-applications.php:603
+msgctxt "admin applications"
+msgid "All Jobs"
+msgstr ""
+
+#: admin/job-applications.php:594
+msgctxt "admin applications"
+msgid "All Statuses"
+msgstr ""
+
+#: admin/job-applications.php:635
+msgctxt "admin applications"
+msgid "Filter"
+msgstr ""
+
+#: admin/job-applications.php:610
+msgctxt "admin applications"
+msgid "Filter by employer"
+msgstr ""
+
+#: admin/job-applications.php:602
+msgctxt "admin applications"
+msgid "Filter by job"
+msgstr ""
+
+#: admin/job-applications.php:592
+msgctxt "admin applications"
+msgid "Filter by status"
+msgstr ""
+
+#: admin/job-applications.php:621
+msgctxt "admin applications"
+msgid "Newest First"
+msgstr ""
+
+#: admin/job-applications.php:644
+msgctxt "admin applications"
+msgid "No applications found."
+msgstr ""
+
+#: admin/job-applications.php:622
+msgctxt "admin applications"
+msgid "Oldest First"
+msgstr ""
+
+#: admin/job-applications.php:618
+msgctxt "admin applications"
+msgid "Sort by"
+msgstr ""
+
+#: admin/job-applications.php:620
+msgctxt "admin applications"
+msgid "Sort by..."
+msgstr ""
+
+#: admin/job-applications.php:852
+msgctxt "admin applications"
+msgid "Withdrawn"
+msgstr ""
+
+#: admin/job-applications.php:518
+msgctxt "admin applications bulk"
+msgid "Delete"
+msgstr ""
+
+#: admin/job-applications.php:517
+msgctxt "admin applications bulk"
+msgid "Mark as Rejected"
+msgstr ""
+
+#: admin/job-applications.php:515
+msgctxt "admin applications bulk"
+msgid "Mark as Reviewed"
+msgstr ""
+
+#: admin/job-applications.php:516
+msgctxt "admin applications bulk"
+msgid "Mark as Shortlisted"
+msgstr ""
+
+#: admin/job-applications.php:488
+msgctxt "admin applications column"
+msgid "Applicant"
+msgstr ""
+
+#: admin/job-applications.php:491
+msgctxt "admin applications column"
+msgid "Applied"
+msgstr ""
+
+#: admin/job-applications.php:489
+msgctxt "admin applications column"
+msgid "Job"
+msgstr ""
+
+#: admin/job-applications.php:490
+msgctxt "admin applications column"
+msgid "Status"
+msgstr ""
+
+#: admin/post-meta-box.php:240
+msgctxt "admin candidate cv files"
+msgid "Download CV"
+msgstr ""
+
+#: admin/post-meta-box.php:211
+msgctxt "admin candidate cv files"
+msgid "No CV files found."
+msgstr ""
+
+#: admin/post-type-listings.php:868
+msgctxt "admin column"
+msgid "(no title)"
+msgstr ""
+
+#: admin/post-type-listings.php:192
+msgctxt "admin column"
+msgid "Applications"
+msgstr ""
+
+#: admin/post-type-listings.php:55
+msgctxt "admin column"
+msgid "Candidate"
+msgstr ""
+
+#: admin/post-type-listings.php:193
+msgctxt "admin column"
+msgid "Deadline"
+msgstr ""
+
+#: admin/post-type-listings.php:194
+msgctxt "admin column"
+msgid "Expiry"
+msgstr ""
+
+#: admin/post-type-listings.php:195
+msgctxt "admin column"
+msgid "Status"
+msgstr ""
+
+#: admin/post-type-listings.php:190
+msgctxt "admin column"
+msgid "Title"
+msgstr ""
+
+#: admin/post-type-listings.php:57
+msgctxt "admin column"
+msgid "User"
+msgstr ""
+
+#: admin/admin.php:142
+msgctxt "admin dashboard"
+msgid "A quick overview of jobs, candidates and applications across the site."
+msgstr ""
+
+#: admin/admin.php:165
+msgctxt "admin dashboard"
+msgid "Active Jobs"
+msgstr ""
+
+#: admin/admin.php:209
+msgctxt "admin dashboard"
+msgid "No applications received yet."
+msgstr ""
+
+#: admin/admin.php:189
+msgctxt "admin dashboard"
+msgid "Pending Applications"
+msgstr ""
+
+#: admin/admin.php:171
+msgctxt "admin dashboard"
+msgid "Pending Jobs"
+msgstr ""
+
+#: admin/admin.php:198
+msgctxt "admin dashboard"
+msgid "Recent Applications"
+msgstr ""
+
+#: admin/admin.php:183
+msgctxt "admin dashboard"
+msgid "Total Applications"
+msgstr ""
+
+#: admin/admin.php:177
+msgctxt "admin dashboard"
+msgid "Total Candidates"
+msgstr ""
+
+#: admin/admin.php:159
+msgctxt "admin dashboard"
+msgid "Total Jobs"
+msgstr ""
+
+#: admin/admin.php:201
+msgctxt "admin dashboard"
+msgid "View all applications"
+msgstr ""
+
+#: admin/admin.php:137
+msgctxt "admin dashboard"
+msgid "Welcome!"
+msgstr ""
+
+#. %s: admin user display name
+#: admin/admin.php:135
+#, php-format
+msgctxt "admin dashboard"
+msgid "Welcome, %s!"
+msgstr ""
+
+#: admin/admin.php:126
+msgctxt "admin dashboard"
+msgid "Workeera Dashboard"
+msgstr ""
+
+#. 1: user name, 2: email, 3: user ID
+#: admin/post-type-listings.php:721 admin/post-type-listings.php:837
+#, php-format
+msgctxt "admin employer dropdown"
+msgid "%1$s (%2$s) (id: %3$d)"
+msgstr ""
+
+#. 1: user name, 2: user ID
+#: admin/post-type-listings.php:724 admin/post-type-listings.php:840
+#, php-format
+msgctxt "admin employer dropdown"
+msgid "%1$s (id: %2$d)"
+msgstr ""
+
+#: admin/post-type-listings.php:731
+msgctxt "admin job filter"
+msgid "All Employers"
+msgstr ""
+
+#: admin/post-type-listings.php:436
+msgctxt "admin job status"
+msgid "Active"
+msgstr ""
+
+#: admin/post-type-listings.php:439
+msgctxt "admin job status"
+msgid "Expired"
+msgstr ""
+
+#: admin/post-type-listings.php:440
+msgctxt "admin job status"
+msgid "Inactive"
+msgstr ""
+
+#: admin/post-type-listings.php:438
+msgctxt "admin job status"
+msgid "Moderated"
+msgstr ""
+
+#: admin/post-type-listings.php:437
+msgctxt "admin job status"
+msgid "Pending"
+msgstr ""
+
+#: admin/post-type-listings.php:743
+msgctxt "admin job status filter"
+msgid "Active"
+msgstr ""
+
+#: admin/post-type-listings.php:750
+msgctxt "admin job status filter"
+msgid "All Statuses"
+msgstr ""
+
+#: admin/post-type-listings.php:746
+msgctxt "admin job status filter"
+msgid "Expired"
+msgstr ""
+
+#: admin/post-type-listings.php:745
+msgctxt "admin job status filter"
+msgid "Moderated"
+msgstr ""
+
+#: admin/post-type-listings.php:744
+msgctxt "admin job status filter"
+msgid "Pending"
+msgstr ""
+
+#: includes/post-types.php:73
+msgctxt "Admin menu name"
+msgid "Candidates"
+msgstr ""
+
+#: includes/post-types.php:33
+msgctxt "Admin menu name"
+msgid "Jobs"
+msgstr ""
+
+#: admin/addons.php:60
+msgctxt "Admin menu title"
+msgid "Addons"
+msgstr ""
+
+#: admin/free-ai-credits.php:148
+msgctxt "Admin menu title"
+msgid "Free AI Credits"
+msgstr ""
+
+#: admin/job-applications.php:38
+msgctxt "admin menu title"
+msgid "Job Applications"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:144
+#, php-format
+msgctxt "Admin notice"
+msgid ""
+"%s taxonomy is not initialized properly. Please try reactivating the plugin "
+"or contact support."
+msgstr ""
+
+#: admin/admin.php:443
+msgctxt "Admin options"
+msgid "Save Settings"
+msgstr ""
+
+#: admin/admin.php:484
+msgctxt "Admin options menu"
+msgid "Candidates"
+msgstr ""
+
+#: admin/admin.php:478
+msgctxt "Admin options menu"
+msgid "Companies"
+msgstr ""
+
+#: admin/admin.php:458
+msgctxt "Admin options menu"
+msgid "General"
+msgstr ""
+
+#: admin/admin.php:465
+msgctxt "Admin options menu"
+msgid "Job Listings"
+msgstr ""
+
+#: admin/admin.php:472
+msgctxt "Admin options menu"
+msgid "Job Submission"
+msgstr ""
+
+#: admin/admin.php:489
+msgctxt "Admin options menu"
+msgid "Pages"
+msgstr ""
+
+#: admin/admin.php:486
+msgctxt "Admin options sub menu"
+msgid "Candidates"
+msgstr ""
+
+#: admin/admin.php:480
+msgctxt "Admin options sub menu"
+msgid "Company Settings"
+msgstr ""
+
+#: admin/admin.php:460
+msgctxt "Admin options sub menu"
+msgid "General settings"
+msgstr ""
+
+#: admin/admin.php:468
+msgctxt "Admin options sub menu"
+msgid "Job Applications"
+msgstr ""
+
+#: admin/admin.php:467 admin/admin.php:474
+msgctxt "Admin options sub menu"
+msgid "Jobs"
+msgstr ""
+
+#: admin/admin.php:461
+msgctxt "Admin options sub menu"
+msgid "Salary"
+msgstr ""
+
+#: admin/free-ai-credits.php:147
+msgctxt "Admin page title"
+msgid "Free AI Credits"
+msgstr ""
+
+#: admin/job-applications.php:37 admin/job-applications.php:102
+msgctxt "admin page title"
+msgid "Job Applications"
+msgstr ""
+
+#: admin/addons.php:59
+msgctxt "Admin page title"
+msgid "Workeera Addons"
+msgstr ""
+
+#: admin/admin.php:63
+msgctxt "Admin page title"
+msgid "Workeera Dashboard"
+msgstr ""
+
+#: admin/admin.php:71
+msgctxt "Admin page title"
+msgid "Workeera Options Page"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:316
+#: admin/taxonomies/common-taxonomy.php:368
+msgctxt "Admin terms"
+msgid "Apply"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:313
+#: admin/taxonomies/common-taxonomy.php:365
+msgctxt "Admin terms"
+msgid "Bulk actions"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:251 admin/taxonomies/taxonomy.php:257
+msgctxt "Admin terms"
+msgid "Current page"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:314
+#: admin/taxonomies/common-taxonomy.php:366
+#: admin/taxonomies/common-taxonomy.php:418
+msgctxt "Admin terms"
+msgid "Delete"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:417
+msgctxt "Admin terms"
+msgid "Edit"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:237
+msgctxt "Admin terms"
+msgid "First page"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:269
+msgctxt "Admin terms"
+msgid "Last page"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:228
+#: admin/taxonomies/common-taxonomy.php:479
+#: admin/taxonomies/common-taxonomy.php:683
+msgctxt "Admin terms"
+msgid "Name"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:266
+msgctxt "Admin terms"
+msgid "Next page"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:240
+msgctxt "Admin terms"
+msgid "Previous page"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:212
+#, php-format
+msgctxt "Admin terms"
+msgid "Search %s"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:168
+#, php-format
+msgctxt "Admin terms"
+msgid "Search %s:"
+msgstr ""
+
+#. %s: search query
+#: admin/taxonomies/common-taxonomy.php:160
+#, php-format
+msgctxt "Admin terms"
+msgid "Search results for: <strong>%s</strong>"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:477
+msgctxt "Admin terms"
+msgid "Select All"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:240
+#: admin/taxonomies/common-taxonomy.php:480
+#: admin/taxonomies/common-taxonomy.php:694
+msgctxt "Admin terms"
+msgid "Slug"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:237
+msgctxt "Admin terms"
+msgid "The name is how it appears on your site."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:772
+msgctxt "Admin terms"
+msgid "Update"
+msgstr ""
+
+#. %s: total item count
+#: admin/taxonomies/taxonomy.php:222
+#, php-format
+msgctxt "Admin terms total"
+msgid "%s Items"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1573
+msgctxt "Admin title"
+msgid "Benefit"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1574
+msgctxt "Admin title"
+msgid "Benefits"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1498
+#: admin/taxonomies/common-taxonomy.php:1530
+#: admin/taxonomies/common-taxonomy.php:1602
+msgctxt "Admin title"
+msgid "Candidates Count"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1459
+msgctxt "Admin title"
+msgid "Cities"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1458
+msgctxt "Admin title"
+msgid "City"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1443
+#: admin/taxonomies/common-taxonomy.php:1468
+msgctxt "Admin title"
+msgid "Countries"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1442
+#: admin/taxonomies/common-taxonomy.php:1467
+msgctxt "Admin title"
+msgid "Country"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1591
+msgctxt "Admin title"
+msgid "Experience Level"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1592
+msgctxt "Admin title"
+msgid "Experience Levels"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1537
+msgctxt "Admin title"
+msgid "Job Type"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1538
+msgctxt "Admin title"
+msgid "Job Types"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1451
+#: admin/taxonomies/common-taxonomy.php:1477
+#: admin/taxonomies/common-taxonomy.php:1493
+#: admin/taxonomies/common-taxonomy.php:1525
+#: admin/taxonomies/common-taxonomy.php:1548
+#: admin/taxonomies/common-taxonomy.php:1566
+#: admin/taxonomies/common-taxonomy.php:1584
+msgctxt "Admin title"
+msgid "Jobs Count"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1484
+#: admin/taxonomies/common-taxonomy.php:1515
+msgctxt "Admin title"
+msgid "Sector"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1485
+#: admin/taxonomies/common-taxonomy.php:1516
+msgctxt "Admin title"
+msgid "Sectors"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1505
+msgctxt "Admin title"
+msgid "Skill"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1506
+msgctxt "Admin title"
+msgid "Skills"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1555
+msgctxt "Admin title"
+msgid "Timezone"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1556
+msgctxt "Admin title"
+msgid "Timezones"
+msgstr ""
+
+#. %d: user ID
+#: admin/post-type-listings.php:145
+msgctxt "admin user"
+msgid "#%d (deleted)"
+msgstr ""
+
+#. %d: user ID
+#: admin/post-type-listings.php:153 admin/post-type-listings.php:274
+msgctxt "admin user"
+msgid "User #%d"
+msgstr ""
+
+#: includes/post-types.php:72
+msgid "All Candidates"
+msgstr ""
+
+#: includes/post-types.php:32
+msgid "All Jobs"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:119
+msgid "Allow Location Type"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:127
+msgid "Allow location type selection."
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:101
+msgid "Allow Published Edits"
+msgstr ""
+
+#: admin/settings/general-settings.php:271
+msgid "Allow to choose salary unit type in submission form and filters."
+msgstr ""
+
+#: admin/settings/general-settings.php:268
+msgid "Allowed"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:135
+msgid "Allowed CV file types"
+msgstr ""
+
+#: includes/class-job-applications.php:1010
+msgid "Applicant name is required."
+msgstr ""
+
+#: includes/class-job-applications.php:123
+msgctxt "application actions"
+msgid "Actions"
+msgstr ""
+
+#: includes/class-job-applications.php:85
+msgctxt "application actions"
+msgid "Download CV"
+msgstr ""
+
+#: includes/class-job-applications.php:96
+msgctxt "application actions"
+msgid "View Cover Letter"
+msgstr ""
+
+#: admin/post-meta-box.php:308
+msgid "Application Deadline"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:83
+#: includes/user-dashboard/job-applications.php:165
+#: includes/user-dashboard/job-applications.php:912
+#: includes/user-dashboard/job-applications.php:917
+msgctxt "application status"
+msgid "Pending"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:86
+#: includes/user-dashboard/job-applications.php:168
+#: includes/user-dashboard/job-applications.php:915
+msgctxt "application status"
+msgid "Rejected"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:84
+#: includes/user-dashboard/job-applications.php:166
+#: includes/user-dashboard/job-applications.php:913
+msgctxt "application status"
+msgid "Reviewed"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:85
+#: includes/user-dashboard/job-applications.php:167
+#: includes/user-dashboard/job-applications.php:914
+msgctxt "application status"
+msgid "Shortlisted"
+msgstr ""
+
+#: admin/job-applications.php:153
+#: includes/user-dashboard/job-applications.php:343
+msgid "Application status updated."
+msgstr ""
+
+#: includes/class-job-applications.php:1112
+msgid "Application Submitted"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:272
+msgid "Application withdrawn successfully."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:355
+msgctxt "applied jobs"
+msgid "(Job no longer available)"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:90
+msgctxt "applied jobs"
+msgid "All Statuses"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:71
+msgctxt "applied jobs"
+msgid "Applied Jobs"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/candidate-jobs.php:364
+#, php-format
+msgctxt "applied jobs"
+msgid "Applied: %s"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:45
+#: includes/user-dashboard/candidate-jobs.php:508
+msgctxt "applied jobs"
+msgid ""
+"Are you sure you want to withdraw this application? This action cannot be "
+"undone."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:115
+msgctxt "applied jobs"
+msgid "Browse Jobs"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:48
+#: includes/user-dashboard/candidate-jobs.php:511
+msgctxt "applied jobs"
+msgid "Cancel"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:86
+msgctxt "applied jobs"
+msgid "Newest First"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:112
+msgctxt "applied jobs"
+msgid "No Applications Found"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:87
+msgctxt "applied jobs"
+msgid "Oldest First"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:91
+msgctxt "applied jobs"
+msgid "Pending"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:94
+msgctxt "applied jobs"
+msgid "Rejected"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:92
+msgctxt "applied jobs"
+msgid "Reviewed"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:83
+msgctxt "applied jobs"
+msgid "Search by job title..."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:93
+msgctxt "applied jobs"
+msgid "Shortlisted"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:400
+#: includes/user-dashboard/candidate-jobs.php:407
+msgctxt "applied jobs"
+msgid "View Job"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:415
+msgctxt "applied jobs"
+msgid "Withdraw"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:44
+#: includes/user-dashboard/candidate-jobs.php:507
+msgctxt "applied jobs"
+msgid "Withdraw Application"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:46
+#: includes/user-dashboard/candidate-jobs.php:509
+msgctxt "applied jobs"
+msgid "Yes, Withdraw"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:113
+msgctxt "applied jobs"
+msgid ""
+"You haven't applied to any jobs yet, or no applications match your filters."
+msgstr ""
+
+#. 1: first item on page, 2: last item on page, 3: total items
+#: includes/user-dashboard/candidate-jobs.php:179
+#, php-format
+msgctxt "applied jobs pagination"
+msgid "Showing %1$s–%2$s of %3$s job applications"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:455
+#: includes/user-dashboard/candidate-jobs.php:460
+msgctxt "applied jobs status"
+msgid "Pending"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:458
+msgctxt "applied jobs status"
+msgid "Rejected"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:456
+msgctxt "applied jobs status"
+msgid "Reviewed"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:457
+msgctxt "applied jobs status"
+msgid "Shortlisted"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:47
+#: includes/user-dashboard/candidate-jobs.php:393
+#: includes/user-dashboard/candidate-jobs.php:510
+msgctxt "applied jobs status"
+msgid "Withdrawn"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:304
+msgid "Apply default plugin settings"
+msgstr ""
+
+#: includes/class-job-applications.php:517
+msgid "Apply Job"
+msgstr ""
+
+#: includes/class-job-applications.php:675
+msgctxt "Apply job"
+msgid "Apply Job"
+msgstr ""
+
+#: includes/class-job-applications.php:653
+msgctxt "Apply job"
+msgid "Cover Letter"
+msgstr ""
+
+#: includes/class-job-applications.php:603
+msgctxt "Apply job"
+msgid "CV / Resume"
+msgstr ""
+
+#: includes/class-job-applications.php:547
+msgctxt "Apply job"
+msgid "Doe"
+msgstr ""
+
+#: includes/class-job-applications.php:564
+msgctxt "Apply job"
+msgid "Email Address"
+msgstr ""
+
+#: includes/class-job-applications.php:572
+msgctxt "Apply job"
+msgid "example@abc.com"
+msgstr ""
+
+#: includes/class-job-applications.php:540
+msgctxt "Apply job"
+msgid "Family name"
+msgstr ""
+
+#: includes/class-job-applications.php:524
+msgctxt "Apply job"
+msgid "Given name"
+msgstr ""
+
+#: includes/class-job-applications.php:531
+msgctxt "Apply job"
+msgid "John"
+msgstr ""
+
+#: includes/class-job-applications.php:581
+msgctxt "Apply job"
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-job-applications.php:637
+msgctxt "Apply job"
+msgid "Upload CV"
+msgstr ""
+
+#: includes/class-job-applications.php:616
+msgctxt "Apply job"
+msgid "Upload New CV"
+msgstr ""
+
+#: includes/class-listings.php:134
+msgctxt "Apply job CV"
+msgid "An error occurred while uploading."
+msgstr ""
+
+#: includes/class-listings.php:132
+msgctxt "Apply job CV"
+msgid "File size exceeds the allowed limit."
+msgstr ""
+
+#: includes/class-listings.php:133
+msgctxt "Apply job CV"
+msgid "File type not allowed."
+msgstr ""
+
+#. 1: allowed types, 2: max size in MB
+#: includes/class-job-applications.php:629
+#, php-format
+msgctxt "Apply job CV upload"
+msgid "Allowed: %1$s &mdash; Max %2$s MB"
+msgstr ""
+
+#: admin/post-meta-box.php:443 includes/user-dashboard/job-posting.php:244
+msgctxt "apply method option"
+msgid "Apply on external URL"
+msgstr ""
+
+#: admin/post-meta-box.php:442 includes/user-dashboard/job-posting.php:243
+msgctxt "apply method option"
+msgid "Apply on this site"
+msgstr ""
+
+#: includes/class-listings.php:764 includes/class-post-detail.php:827
+#: includes/job-functions.php:236 includes/job-functions.php:244
+msgid "Apply Now"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:88
+msgid "Approved"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:372
+msgid "Back"
+msgstr ""
+
+#. %s: addons.workeera.com link
+#: admin/addons.php:375
+#, php-format
+msgid ""
+"Before you install: adding an add-on shares only your site&#8217;s URL and "
+"IP address with %s so we can verify the request and block spam. Nothing else "
+"is sent &mdash; no personal data is collected, stored, or shared. It is "
+"completely safe."
+msgstr ""
+
+#: includes/class-post-detail.php:498
+msgid "Benefits"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:194
+msgid "Both"
+msgstr ""
+
+#: admin/post-meta-box.php:570
+msgid "Brief description about the company"
+msgstr ""
+
+#: includes/class-form-fields.php:631
+msgid "Browse File"
+msgstr ""
+
+#: includes/class-form-fields.php:594
+msgid "Browse Image"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:57
+msgctxt "Button"
+msgid "Cancel"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:56
+msgctxt "Button"
+msgid "Delete"
+msgstr ""
+
+#. 1: terms and conditions link, 2: privacy policy link
+#: includes/common-functions.php:368
+#, php-format
+msgid "By continuing, you acknowledge our %1$s and %2$s."
+msgstr ""
+
+#. %s: terms and conditions link
+#. %s: privacy policy link
+#: includes/common-functions.php:376 includes/common-functions.php:383
+#, php-format
+msgid "By continuing, you acknowledge our %s."
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:110
+msgid "Can edit without admin approval"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:111
+msgid "Can edit, but edits require admin approval"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:80
+msgid "Candidate Default Status"
+msgstr ""
+
+#: admin/post-meta-box.php:73
+msgid "Candidate Fields"
+msgstr ""
+
+#: admin/post-meta-box.php:728
+msgctxt "candidate job title"
+msgid "Python Developer"
+msgstr ""
+
+#: admin/post-meta-box.php:851
+msgctxt "Candidate metabox"
+msgid "Experience Level"
+msgstr ""
+
+#: admin/post-meta-box.php:840
+msgctxt "Candidate metabox"
+msgid "Sector"
+msgstr ""
+
+#: admin/post-meta-box.php:852
+msgctxt "Candidate metabox"
+msgid "Select experience level"
+msgstr ""
+
+#: admin/post-meta-box.php:846
+msgctxt "Candidate metabox"
+msgid "Select or add skills"
+msgstr ""
+
+#: admin/post-meta-box.php:841
+msgctxt "Candidate metabox"
+msgid "Select sector"
+msgstr ""
+
+#: admin/post-meta-box.php:845
+msgctxt "Candidate metabox"
+msgid "Skills"
+msgstr ""
+
+#: includes/candidate-functions.php:80
+msgid "Candidate Profile"
+msgstr ""
+
+#: includes/class-job-applications.php:734
+#: includes/user-dashboard/cv-manager.php:370
+#: includes/user-dashboard/cv-manager.php:477
+msgid "Candidate profile not found."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:217
+msgid "Candidate Settings"
+msgstr ""
+
+#: admin/post-meta-box.php:704
+msgid "Candidate User"
+msgstr ""
+
+#: includes/post-types.php:84
+msgid "Candidates list"
+msgstr ""
+
+#: includes/post-types.php:83
+msgid "Candidates navigation"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:122
+msgid "Category"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1382
+msgid "Changes saved successfully. They will be published after approval."
+msgstr ""
+
+#: admin/free-ai-credits.php:192
+msgid "Checking…"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:114
+msgid ""
+"Choose whether published job listings can be edited and/or if edits require "
+"admin approval."
+msgstr ""
+
+#: admin/settings/general-settings.php:140
+msgid "Cities only"
+msgstr ""
+
+#: admin/settings/general-settings.php:165
+msgid "Cities will show in filters for selected country only."
+msgstr ""
+
+#: includes/class-listings.php:1053
+msgid "Clear All"
+msgstr ""
+
+#: includes/class-listings.php:1479
+msgid "Clear all Filters"
+msgstr ""
+
+#: includes/class-listings.php:1036
+msgid "Clear Filters:"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:384
+msgid "Clear search"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:434
+msgid "Company created."
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:453
+msgid "Company deleted."
+msgstr ""
+
+#: admin/post-meta-box.php:41
+msgid "Company Info"
+msgstr ""
+
+#. %d: maximum companies per user
+#: includes/user-dashboard/my-companies.php:83
+msgid "Company limit reached (%d)."
+msgstr ""
+
+#: includes/post-types.php:43
+msgid "Company logo"
+msgstr ""
+
+#: admin/post-meta-box.php:531
+msgid "Company name"
+msgstr ""
+
+#: includes/company-functions.php:324
+#: includes/user-dashboard/job-posting.php:1155
+msgid "Company name is required."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1158
+msgid "Company name is too long (max 150 characters)."
+msgstr ""
+
+#: includes/company-functions.php:327
+msgid "Company name must be 100 characters or fewer."
+msgstr ""
+
+#: admin/settings/company-settings.php:130
+msgid "Company Settings"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1170
+msgid "Company tagline is too long (max 250 characters)."
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:434
+msgid "Company updated."
+msgstr ""
+
+#: includes/class-post-detail.php:266
+msgid "Company:"
+msgstr ""
+
+#: includes/class-plugin.php:242 includes/class-plugin.php:311
+#: includes/user-dashboard/class-user-dashboard.php:57
+#: includes/user-dashboard/cv-manager.php:54
+msgctxt "Confirm box title"
+msgid "Confirmation"
+msgstr ""
+
+#: includes/class-plugin.php:245
+msgctxt "Confirm Popup"
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-plugin.php:244
+msgctxt "Confirm Popup"
+msgid "Delete"
+msgstr ""
+
+#: includes/class-plugin.php:246
+msgctxt "Confirm Popup"
+msgid "OK"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:415
+msgid "Contact Us"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:186
+msgid ""
+"Control which fields appear on the job apply form and whether they are "
+"required."
+msgstr ""
+
+#: admin/free-ai-credits.php:275
+msgid "Could not reach the credits service. Please try again."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:354
+#: admin/taxonomies/class-importdata.php:902
+msgid "Could not read the CSV file."
+msgstr ""
+
+#: includes/candidate-functions.php:289 includes/class-job-applications.php:311
+msgid "Could not read the file."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:311
+#: admin/taxonomies/class-importdata.php:882
+msgid "Could not read the parent CSV file."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:417
+msgid "Could not read the sample file."
+msgstr ""
+
+#: admin/settings/general-settings.php:138
+msgid "Countries only"
+msgstr ""
+
+#: admin/settings/general-settings.php:139
+msgid "Countries with Cities"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:49
+#: admin/settings/job-apply-settings.php:131
+msgid "Cover Letter"
+msgstr ""
+
+#: includes/class-job-applications.php:1035
+msgid "Cover letter is required."
+msgstr ""
+
+#: includes/class-job-applications.php:1005
+msgid "Cover letter is too long (max 3000 characters)."
+msgstr ""
+
+#. %s: option name
+#: admin/setup-wizard/class-setup-wizard.php:585
+#, php-format
+msgid "Created default settings: %s"
+msgstr ""
+
+#. 1: page title, 2: page ID
+#: admin/setup-wizard/class-setup-wizard.php:650
+#, php-format
+msgid "Created page: %1$s (#%2$d)"
+msgstr ""
+
+#: admin/settings/field-functions.php:438
+msgid "Currency"
+msgstr ""
+
+#: admin/settings/field-functions.php:450
+msgid "Currency Position"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:405
+msgid "Customisation requests?"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:511
+msgid "CV file deleted successfully."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:450
+msgid "CV file uploaded successfully."
+msgstr ""
+
+#: admin/post-meta-box.php:100
+msgid "CV Files"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:128
+msgid "CV manager"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:66
+#: includes/user-dashboard/cv-manager.php:175
+msgctxt "CV manager"
+msgid "Add More CV"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:61
+msgctxt "CV manager"
+msgid "An error occurred while uploading."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:55
+msgctxt "CV manager"
+msgid "Are you sure you want to delete this CV file?"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:63
+msgctxt "CV manager"
+msgid "CV file deleted successfully."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:62
+msgctxt "CV manager"
+msgid "CV file uploaded successfully."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:231
+msgctxt "CV manager"
+msgid "Delete"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:214
+msgctxt "CV manager"
+msgid "Download"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:60
+msgctxt "CV manager"
+msgid "File size exceeds the allowed limit."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:59
+msgctxt "CV manager"
+msgid "File type not allowed."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:64
+msgctxt "CV manager"
+msgid "Select a file to upload"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:65
+#: includes/user-dashboard/cv-manager.php:155
+msgctxt "CV manager"
+msgid "Upload CV"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:178
+msgctxt "CV manager"
+msgid "You have reached the maximum number of CV files."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:58
+msgctxt "CV manager"
+msgid "You have reached the maximum number of uploaded CV files."
+msgstr ""
+
+#. 1: comma-separated allowed file extensions, 2: maximum size in megabytes
+#: includes/user-dashboard/cv-manager.php:144
+#, php-format
+msgctxt "CV manager upload info"
+msgid "Allowed file types: %1$s. Max file size: %2$s MB."
+msgstr ""
+
+#: includes/class-job-applications.php:814
+msgid "CV uploaded successfully."
+msgstr ""
+
+#: includes/common-functions.php:631
+msgid "Daily"
+msgstr ""
+
+#. 1: dashboard section name, 2: dashboard page title
+#: includes/user-dashboard/dashboard-common.php:418
+#, php-format
+msgctxt "dashboard document title"
+msgid "%1$s &#8211; %2$s"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:680
+msgctxt "dashboard home"
+msgid "(Job no longer available)"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:538
+msgctxt "dashboard home"
+msgid "Active Jobs"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:557
+msgctxt "dashboard home"
+msgid "Applied Jobs"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:498
+msgctxt "dashboard home"
+msgid "Here's what's happening with your job applications."
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:497
+msgctxt "dashboard home"
+msgid "Here's what's happening with your job postings."
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:616
+msgctxt "dashboard home"
+msgid "No applications received yet."
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:544
+msgctxt "dashboard home"
+msgid "Pending Jobs"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:590
+msgctxt "dashboard home"
+msgid "Recent Applications"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:592
+msgctxt "dashboard home"
+msgid "Recently Applied"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:575
+msgctxt "dashboard home"
+msgid "Rejected"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:563
+msgctxt "dashboard home"
+msgid "Reviewed"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:569
+msgctxt "dashboard home"
+msgid "Shortlisted"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:550
+msgctxt "dashboard home"
+msgid "Total Applicants"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:532
+msgctxt "dashboard home"
+msgid "Total Jobs Posted"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:598
+msgctxt "dashboard home"
+msgid "View all"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:515
+msgctxt "dashboard home"
+msgid "Welcome back!"
+msgstr ""
+
+#. %s: user display name
+#: includes/user-dashboard/dashboard-common.php:513
+#, php-format
+msgctxt "dashboard home"
+msgid "Welcome back, %s!"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:618
+msgctxt "dashboard home"
+msgid "You haven't applied to any jobs yet."
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:301
+#: includes/user-dashboard/dashboard-common.php:433
+msgctxt "dashboard menu"
+msgid "Applications"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:322
+#: includes/user-dashboard/dashboard-common.php:440
+msgctxt "dashboard menu"
+msgid "Applied Jobs"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:332
+#: includes/user-dashboard/dashboard-common.php:442
+msgctxt "dashboard menu"
+msgid "CV Manager"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:291
+#: includes/user-dashboard/dashboard-common.php:317
+#: includes/user-dashboard/dashboard-common.php:430
+#: includes/user-dashboard/dashboard-common.php:439
+msgctxt "dashboard menu"
+msgid "Dashboard"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:432
+msgctxt "dashboard menu"
+msgid "Job Posting"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:209
+msgctxt "dashboard menu"
+msgid "Logout"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:296
+#: includes/user-dashboard/dashboard-common.php:431
+msgctxt "dashboard menu"
+msgid "Manage Jobs"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:306
+#: includes/user-dashboard/dashboard-common.php:434
+msgctxt "dashboard menu"
+msgid "My Companies"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:311
+#: includes/user-dashboard/dashboard-common.php:337
+#: includes/user-dashboard/dashboard-common.php:435
+#: includes/user-dashboard/dashboard-common.php:443
+msgctxt "dashboard menu"
+msgid "Profile"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:327
+#: includes/user-dashboard/dashboard-common.php:441
+msgctxt "dashboard menu"
+msgid "Recommended Jobs"
+msgstr ""
+
+#: admin/settings/pages-settings.php:81
+msgid "Dashboard Page"
+msgstr ""
+
+#. %s: human-readable time difference
+#: includes/user-dashboard/dashboard-common.php:702
+#, php-format
+msgctxt "dashboard recent app time"
+msgid "%s ago"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:164
+msgctxt "dashboard topbar"
+msgid "Dashboard breadcrumb"
+msgstr ""
+
+#: includes/user-dashboard/dashboard-common.php:184
+#: includes/user-dashboard/dashboard-common.php:196
+msgctxt "dashboard topbar"
+msgid "Dashboard menu"
+msgstr ""
+
+#: admin/post-meta-box.php:768
+msgid "Date of Birth"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1217
+msgid "Deadline date should be a future date."
+msgstr ""
+
+#: includes/class-post-detail.php:310
+msgid "Deadline:"
+msgstr ""
+
+#: admin/settings/general-settings.php:228
+msgid "Default Currency"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:132
+msgid "Default Location Type"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:315
+msgid "Default pages"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:298
+msgid "Default plugin settings"
+msgstr ""
+
+#: admin/settings/general-settings.php:276
+msgid "Default Salary Unit"
+msgstr ""
+
+#: includes/class-plugin.php:324
+msgctxt "Delete confirm button"
+msgid "Yes, Delete"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: includes/class-plugin.php:323
+#, php-format
+msgctxt "Delete confirm message"
+msgid ""
+"Are you sure you want to delete data? This will permanently delete all "
+"existing %s data."
+msgstr ""
+
+#. 1: taxonomy singular name, 2: taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:377
+#, php-format
+msgid "Deleting a %1$s does not delete the posts in that %2$s."
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:341
+#: includes/user-dashboard/resume-detail.php:550
+msgid "Description must not exceed 2000 characters."
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:361
+#: includes/user-dashboard/resume-detail.php:587
+msgid "Details saved successfully."
+msgstr ""
+
+#: admin/settings/general-settings.php:173
+msgid "Disable Employer Dashboard"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:186
+msgid "Dismiss permanently"
+msgstr ""
+
+#: includes/class-plugin.php:243
+msgid "Do you really want to delete it?"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:145
+msgid "DOC"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:146
+msgid "DOCX"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1248
+msgctxt "Download button"
+msgid "Download Sample CSV"
+msgstr ""
+
+#: includes/class-form-fields.php:717
+msgid "Drag to reorder"
+msgstr ""
+
+#: admin/post-meta-box.php:538
+msgid "e.g. Digi Soft"
+msgstr ""
+
+#: includes/post-types.php:77
+msgid "Edit candidate"
+msgstr ""
+
+#: includes/post-types.php:76
+msgctxt "Edit candidate"
+msgid "Edit"
+msgstr ""
+
+#: includes/post-types.php:37
+msgid "Edit job"
+msgstr ""
+
+#: includes/post-types.php:36
+msgctxt "Edit job"
+msgid "Edit"
+msgstr ""
+
+#: admin/post-meta-box.php:737
+msgid "Email Address"
+msgstr ""
+
+#. %s: job title
+#: includes/class-email-notifications.php:121
+#, php-format
+msgctxt "email subject"
+msgid "New application for \"%s\""
+msgstr ""
+
+#. %s: new application status label
+#: includes/class-email-notifications.php:203
+#, php-format
+msgctxt "email subject"
+msgid "Your application status: %s"
+msgstr ""
+
+#. %s: job title
+#: includes/class-email-notifications.php:89
+#, php-format
+msgctxt "email subject"
+msgid "Your job \"%s\" has been published"
+msgstr ""
+
+#: includes/job-functions.php:12
+msgctxt "Employee count"
+msgid "1-10"
+msgstr ""
+
+#: includes/job-functions.php:19
+msgctxt "Employee count"
+msgid "10000+"
+msgstr ""
+
+#: includes/job-functions.php:17
+msgctxt "Employee count"
+msgid "1001-5000"
+msgstr ""
+
+#: includes/job-functions.php:13
+msgctxt "Employee count"
+msgid "11-50"
+msgstr ""
+
+#: includes/job-functions.php:15
+msgctxt "Employee count"
+msgid "201-500"
+msgstr ""
+
+#: includes/job-functions.php:18
+msgctxt "Employee count"
+msgid "5001-10000"
+msgstr ""
+
+#: includes/job-functions.php:16
+msgctxt "Employee count"
+msgid "501-1000"
+msgstr ""
+
+#: includes/job-functions.php:14
+msgctxt "Employee count"
+msgid "51-200"
+msgstr ""
+
+#. 1: count, 2: status label
+#: admin/job-applications.php:200
+#: includes/user-dashboard/job-applications.php:408
+#, php-format
+msgctxt "employer applications"
+msgid "%1$s applications marked as %2$s."
+msgstr ""
+
+#. %s: count of selected items
+#. %s: number of selected items
+#: includes/user-dashboard/job-applications.php:73
+#: includes/user-dashboard/job-applications.php:194
+#, php-format
+msgctxt "employer applications"
+msgid "%s selected"
+msgstr ""
+
+#. %s: age in years
+#: admin/job-applications.php:832
+#: includes/user-dashboard/job-applications.php:794
+#, php-format
+msgctxt "employer applications"
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/user-dashboard/job-applications.php:78
+msgctxt "employer applications"
+msgid "All Employers"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:77
+#: includes/user-dashboard/job-applications.php:171
+#: includes/user-dashboard/job-applications.php:172
+msgctxt "employer applications"
+msgid "All Jobs"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:164
+msgctxt "employer applications"
+msgid "All Statuses"
+msgstr ""
+
+#. %s: formatted date
+#: admin/job-applications.php:775
+#: includes/user-dashboard/job-applications.php:737
+#, php-format
+msgctxt "employer applications"
+msgid "Applied: %s"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:202
+msgctxt "employer applications"
+msgid "Apply"
+msgstr ""
+
+#. %s: count of applications
+#: includes/user-dashboard/job-applications.php:80
+#, php-format
+msgctxt "employer applications"
+msgid ""
+"Are you sure you want to delete %s applications? This action cannot be "
+"undone."
+msgstr ""
+
+#. 1: count of applications, 2: target status label
+#: includes/user-dashboard/job-applications.php:69
+#, php-format
+msgctxt "employer applications"
+msgid "Are you sure you want to mark %1$s applications as %2$s?"
+msgstr ""
+
+#. %s: target status label (Reviewed, Shortlisted, Rejected, Pending)
+#: includes/user-dashboard/job-applications.php:67
+#, php-format
+msgctxt "employer applications"
+msgid "Are you sure you want to mark this application as %s?"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:196
+msgctxt "employer applications"
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:62
+msgctxt "employer applications"
+msgid "Cancel"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:64
+msgctxt "employer applications"
+msgid "Close"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:60
+msgctxt "employer applications"
+msgid "Confirm Action"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:65
+msgctxt "employer applications"
+msgid "Cover Letter"
+msgstr ""
+
+#. %s: formatted date
+#: admin/job-applications.php:735
+#: includes/user-dashboard/job-applications.php:698
+#, php-format
+msgctxt "employer applications"
+msgid "Deadline: %s"
+msgstr ""
+
+#. %s: formatted date
+#: admin/job-applications.php:745
+#: includes/user-dashboard/job-applications.php:708
+#, php-format
+msgctxt "employer applications"
+msgid "Expired: %s"
+msgstr ""
+
+#. %s: formatted date
+#: admin/job-applications.php:748
+#: includes/user-dashboard/job-applications.php:711
+#, php-format
+msgctxt "employer applications"
+msgid "Expires: %s"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:135
+msgctxt "employer applications"
+msgid "Job Applications"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:199
+msgctxt "employer applications"
+msgid "Mark as Rejected"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:197
+msgctxt "employer applications"
+msgid "Mark as Reviewed"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:198
+msgctxt "employer applications"
+msgid "Mark as Shortlisted"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:152
+msgctxt "employer applications"
+msgid "Newest First"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:220
+msgctxt "employer applications"
+msgid "No Applications Found"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:153
+msgctxt "employer applications"
+msgid "Oldest First"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:71
+msgctxt "employer applications"
+msgid "Please select a bulk action."
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:70
+msgctxt "employer applications"
+msgid "Please select at least one application."
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:148
+msgctxt "employer applications"
+msgid "Search by name, email or job title..."
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:191
+msgctxt "employer applications"
+msgid "Select all"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:746
+msgctxt "employer applications"
+msgid "Select application"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:151
+msgctxt "employer applications"
+msgid "Sort by..."
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:815
+msgctxt "employer applications"
+msgid "Withdrawn"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:61
+msgctxt "employer applications"
+msgid "Yes, Confirm"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:81
+msgctxt "employer applications"
+msgid "Yes, Delete"
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:221
+msgctxt "employer applications"
+msgid "You haven't received any applications yet, or none match your filters."
+msgstr ""
+
+#. 1: first item on page, 2: last item on page, 3: total items
+#: includes/user-dashboard/job-applications.php:275
+#, php-format
+msgctxt "employer applications pagination"
+msgid "Showing %1$s–%2$s of %3$s applications"
+msgstr ""
+
+#. 1: user display name, 2: user ID
+#: admin/job-applications.php:409 admin/job-applications.php:583
+#, php-format
+msgctxt "employer dropdown label"
+msgid "%1$s (id: %2$d)"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:135
+msgctxt "Employer Profile"
+msgid "Designation"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:123
+msgctxt "Employer Profile"
+msgid "Doe"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:152
+msgctxt "Employer Profile"
+msgid "Email Address"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:160
+msgctxt "Employer Profile"
+msgid "example@abc.com"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:116
+msgctxt "Employer Profile"
+msgid "Family name"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:142
+msgctxt "Employer Profile"
+msgid "Founder/CEO"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:100
+msgctxt "Employer Profile"
+msgid "Given name"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:107
+msgctxt "Employer Profile"
+msgid "John"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:197
+msgctxt "Employer Profile"
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:66
+msgctxt "Employer Profile"
+msgid "Personal details"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:168
+msgctxt "Employer Profile"
+msgid "Phone Number"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:94
+msgctxt "Employer Profile"
+msgid "Photo"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:87
+msgctxt "Employer Profile"
+msgid "Remove Photo"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:236
+msgctxt "Employer Profile"
+msgid "Save Details"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:212
+msgctxt "Employer Profile"
+msgid "Short description"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:89
+msgctxt "Employer Profile"
+msgid "Upload Photo"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:182
+msgctxt "Employer Profile"
+msgid "Website"
+msgstr ""
+
+#: admin/settings/general-settings.php:123
+msgid ""
+"Enable the free Hiremium AI credits feature. When on, a \"Free AI Credits\" "
+"page appears under Workeera and the AI add-ons can use free trial credits. "
+"Turn off to hide it everywhere."
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:129
+msgid ""
+"Enable/disable and reorder the filters shown on the jobs listing. Drag a row "
+"to change its position and use the switch to turn it on or off — changes "
+"apply after you press Save."
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:107
+msgid "Enable/Disable jobs filters."
+msgstr ""
+
+#: includes/scheduled-tasks.php:65
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: includes/scheduled-tasks.php:59
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: includes/scheduled-tasks.php:71
+msgid "Every 6 Hours"
+msgstr ""
+
+#: admin/post-meta-box.php:744
+msgid "example@abc.com"
+msgstr ""
+
+#. %s: expiry date
+#: admin/free-ai-credits.php:489
+#, php-format
+msgid "Expires %s"
+msgstr ""
+
+#: admin/post-meta-box.php:324
+msgid "Expiry Date"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:193
+msgid "External"
+msgstr ""
+
+#: includes/class-job-applications.php:1070
+msgid "Failed to attach CV. Please try again."
+msgstr ""
+
+#. %s: page title
+#: admin/setup-wizard/class-setup-wizard.php:642
+#, php-format
+msgid "Failed to create page: %s"
+msgstr ""
+
+#. 1: taxonomy plural name, 2: error message
+#: admin/setup-wizard/class-setup-wizard.php:675
+#, php-format
+msgid "Failed to import %1$s: %2$s"
+msgstr ""
+
+#: includes/class-job-applications.php:1093
+msgid "Failed to submit application. Please try again."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:283
+msgid "Failed to update job status."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:259
+msgid "Failed to withdraw application."
+msgstr ""
+
+#: includes/class-listings.php:689 includes/class-post-detail.php:243
+msgid "Featured"
+msgstr ""
+
+#: admin/post-meta-box.php:492
+msgid "Featured Job?"
+msgstr ""
+
+#: admin/post-meta-box.php:493
+msgid "Featured till"
+msgstr ""
+
+#: admin/post-meta-box.php:797 includes/user-dashboard/resume-detail.php:208
+msgid "Female"
+msgstr ""
+
+#: includes/candidate-functions.php:277 includes/class-job-applications.php:286
+msgid "File not found on server."
+msgstr ""
+
+#: includes/candidate-functions.php:257 includes/candidate-functions.php:269
+#: includes/class-job-applications.php:262
+#: includes/class-job-applications.php:281
+#: includes/user-dashboard/cv-manager.php:506
+msgid "File not found."
+msgstr ""
+
+#: includes/class-job-applications.php:761
+#: includes/user-dashboard/cv-manager.php:383
+msgid "File size exceeds the allowed limit."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:168
+msgid "File size must not exceed 5 MB."
+msgstr ""
+
+#: includes/class-job-applications.php:774
+#: includes/user-dashboard/cv-manager.php:400
+msgid "File type not allowed."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:208
+msgid "File uploaded successfully."
+msgstr ""
+
+#: includes/post-types.php:82
+msgid "Filter candidates"
+msgstr ""
+
+#: includes/post-types.php:48
+msgid "Filter jobs"
+msgstr ""
+
+#: includes/class-listings.php:1127 includes/class-listings.php:1427
+msgid "Filters"
+msgstr ""
+
+#: includes/class-listings.php:127 includes/class-listings.php:1380
+msgid "Find Jobs"
+msgstr ""
+
+#: admin/settings/general-settings.php:115
+msgid "Free AI Credits"
+msgstr ""
+
+#. %d: total credits
+#: admin/free-ai-credits.php:482
+msgid "free AI credits left of %d"
+msgstr ""
+
+#: admin/free-ai-credits.php:625
+msgctxt "Free AI Credits page"
+msgid "Active"
+msgstr ""
+
+#: admin/free-ai-credits.php:645
+msgctxt "Free AI Credits page"
+msgid "Credits"
+msgstr ""
+
+#: admin/free-ai-credits.php:615
+msgctxt "Free AI Credits page"
+msgid "credits left"
+msgstr ""
+
+#: admin/free-ai-credits.php:629
+msgctxt "Free AI Credits page"
+msgid "Email"
+msgstr ""
+
+#: admin/free-ai-credits.php:574
+msgctxt "Free AI Credits page"
+msgid ""
+"Enter your email and we’ll send a verification link. Confirm it and your "
+"credits activate instantly."
+msgstr ""
+
+#: admin/free-ai-credits.php:627
+msgctxt "Free AI Credits page"
+msgid "Expires"
+msgstr ""
+
+#: admin/free-ai-credits.php:548
+msgctxt "Free AI Credits page"
+msgid "Free AI Credits"
+msgstr ""
+
+#: admin/free-ai-credits.php:573
+msgctxt "Free AI Credits page"
+msgid "Get your free credits"
+msgstr ""
+
+#: admin/free-ai-credits.php:589
+msgctxt "Free AI Credits page"
+msgid "I’ve verified — check now"
+msgstr ""
+
+#: admin/free-ai-credits.php:638
+msgctxt "Free AI Credits page"
+msgid ""
+"No AI operations yet. Usage will appear here as your add-ons make AI calls."
+msgstr ""
+
+#: admin/free-ai-credits.php:644
+msgctxt "Free AI Credits page"
+msgid "Operation"
+msgstr ""
+
+#: admin/free-ai-credits.php:579
+msgctxt "Free AI Credits page"
+msgid "Send verification link"
+msgstr ""
+
+#: admin/free-ai-credits.php:625 admin/free-ai-credits.php:646
+msgctxt "Free AI Credits page"
+msgid "Status"
+msgstr ""
+
+#: admin/free-ai-credits.php:632
+msgctxt "Free AI Credits page"
+msgid ""
+"These credits are used automatically by the Workeera AI add-ons while free "
+"credits are enabled. Manage the master switch in Settings → General."
+msgstr ""
+
+#: admin/free-ai-credits.php:549
+msgctxt "Free AI Credits page"
+msgid ""
+"Try Workeera’s AI features — resume parsing, applicant match scoring and the "
+"AI resume builder — on the house. Verify your email to unlock free credits, "
+"powered by Hiremium."
+msgstr ""
+
+#: admin/free-ai-credits.php:636
+msgctxt "Free AI Credits page"
+msgid "Usage detail"
+msgstr ""
+
+#: admin/free-ai-credits.php:586
+msgctxt "Free AI Credits page"
+msgid ""
+"We’ve emailed you a verification link. Waiting for confirmation… this page "
+"updates automatically once you click it."
+msgstr ""
+
+#: admin/free-ai-credits.php:643
+msgctxt "Free AI Credits page"
+msgid "When"
+msgstr ""
+
+#: admin/settings/general-settings.php:246
+msgid "Full digits"
+msgstr ""
+
+#: admin/post-meta-box.php:49
+msgid "Further Details"
+msgstr ""
+
+#: admin/post-meta-box.php:784
+msgid "Gender"
+msgstr ""
+
+#: admin/settings/general-settings.php:322
+msgid "General Settings"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:422
+msgid "Go to Workeera Dashboard"
+msgstr ""
+
+#: includes/common-functions.php:623
+msgid "Hourly"
+msgstr ""
+
+#: admin/settings/company-settings.php:91
+msgid "How many companies a user can create or manage. Default: 20."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://workeera.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://workeera.com/contact"
+msgstr ""
+
+#: includes/class-listings.php:822 includes/class-post-detail.php:659
+msgid "Hybrid"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:253
+msgid "I am finding my dream job"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:274
+msgid "I want to hire the best talent"
+msgstr ""
+
+#. %d: page ID
+#. %d: user ID
+#. %d: post ID
+#: admin/admin-ajax.php:48 admin/admin-ajax.php:124 admin/admin.php:524
+msgid "id: %d"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:147
+msgid "Image/Jpeg"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:148
+msgid "Image/Png"
+msgstr ""
+
+#. %s taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:1230
+#, php-format
+msgctxt "Import button"
+msgid "Import Sample %s"
+msgstr ""
+
+#. %s taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:1271
+#, php-format
+msgctxt "Import button"
+msgid "Remove all %s data"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1236
+msgctxt "Import button"
+msgid "Upload CSV &amp; Import"
+msgstr ""
+
+#: includes/class-plugin.php:325
+msgctxt "Import cancel button"
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-plugin.php:321
+msgctxt "Import confirm button"
+msgid "Yes, Import"
+msgstr ""
+
+#: includes/class-plugin.php:320
+msgctxt "Import confirm message"
+msgid "Are you sure you want to import data?"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: includes/class-plugin.php:319
+#, php-format
+msgctxt "Import confirm message"
+msgid ""
+"Are you sure you want to import data? This will permanently delete all "
+"existing %s data and replace it with the imported data. This action cannot "
+"be undone."
+msgstr ""
+
+#: includes/class-plugin.php:317
+msgctxt "Import confirm title"
+msgid "Confirm Import"
+msgstr ""
+
+#: includes/class-plugin.php:331
+msgctxt "Import file size error"
+msgid "File size must not exceed 5 MB."
+msgstr ""
+
+#: includes/class-plugin.php:330
+msgctxt "Import file type error"
+msgid "Only CSV files are allowed."
+msgstr ""
+
+#: includes/class-plugin.php:329
+msgctxt "Import no sample error"
+msgid "No sample data file found for this taxonomy."
+msgstr ""
+
+#: includes/class-plugin.php:326
+msgctxt "Import processing message"
+msgid "Importing, please wait..."
+msgstr ""
+
+#. %s: parent taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:1219
+#, php-format
+msgctxt "Import section info"
+msgid "Import Data will automatically import its parent %s too."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1212
+msgctxt "Import section title"
+msgid "Import Data"
+msgstr ""
+
+#: includes/class-plugin.php:327
+msgctxt "Import success message"
+msgid "Data imported successfully. Reloading..."
+msgstr ""
+
+#: includes/class-plugin.php:328
+msgctxt "Import upload error"
+msgid "Upload failed. Please try again."
+msgstr ""
+
+#. 1: taxonomy plural name, 2: number of terms imported
+#: admin/setup-wizard/class-setup-wizard.php:681
+#, php-format
+msgid "Imported %1$s (%2$d terms)"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:308
+msgid "Incorrect page selected. Please contact the site administrator."
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:456
+#: includes/user-dashboard/job-posting.php:920
+#: includes/user-dashboard/resume-detail.php:689
+msgid "Incorrect request."
+msgstr ""
+
+#: includes/class-plugin.php:306
+msgid "Insert image"
+msgstr ""
+
+#: includes/class-plugin.php:309
+msgid "Insert video"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:192
+msgid "Internal"
+msgstr ""
+
+#: admin/settings/field-functions.php:525
+msgid "Interval/Step"
+msgstr ""
+
+#: admin/job-applications.php:137 includes/class-job-applications.php:178
+#: includes/class-job-applications.php:244
+#: includes/user-dashboard/candidate-jobs.php:228
+#: includes/user-dashboard/job-applications.php:319
+msgid "Invalid application."
+msgstr ""
+
+#: admin/job-applications.php:187
+#: includes/user-dashboard/job-applications.php:386
+msgid "Invalid bulk action."
+msgstr ""
+
+#: includes/candidate-functions.php:231
+#: includes/user-dashboard/cv-manager.php:482
+msgid "Invalid file ID."
+msgstr ""
+
+#: includes/class-job-applications.php:930
+#: includes/user-dashboard/manage-jobs.php:254
+#: includes/user-dashboard/manage-jobs.php:672
+msgid "Invalid job."
+msgstr ""
+
+#: admin/job-applications.php:140
+#: includes/user-dashboard/job-applications.php:322
+msgid "Invalid status."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:844
+msgid "Invalid taxonomy slug."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:100
+#: admin/taxonomies/class-importdata.php:106
+#: admin/taxonomies/class-importdata.php:140
+#: admin/taxonomies/class-importdata.php:149
+#: admin/taxonomies/class-importdata.php:252
+#: admin/taxonomies/class-importdata.php:396
+msgid "Invalid taxonomy."
+msgstr ""
+
+#: admin/post-meta-box.php:510
+msgid "Is Filled"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:184
+msgid "Job Application Type"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:185
+msgid "Job Applications Settings"
+msgstr ""
+
+#: includes/class-job-applications.php:1118
+msgid "Job applied successfully."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:684
+msgid "Job deleted successfully."
+msgstr ""
+
+#: includes/class-post-detail.php:409
+msgid "Job Description"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1076
+msgid "Job description is required."
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:165
+msgid "Job Description Max Length"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1080
+msgid "Job description must not exceed %d characters."
+msgstr ""
+
+#: includes/class-post-detail.php:392 includes/class-post-detail.php:554
+msgctxt "job detail"
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/class-post-detail.php:432
+msgid "Job Details"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:96
+msgid "Job expiry date will set according to this number of days."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:271
+msgid "Job fields record not found."
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:99
+msgid "Job Filters"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:647
+msgctxt "job listing status"
+msgid "Active"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:651
+msgctxt "job listing status"
+msgid "Expired"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:648
+#: includes/user-dashboard/manage-jobs.php:653
+msgctxt "job listing status"
+msgid "Inactive"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:650
+msgctxt "job listing status"
+msgid "Moderated"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:649
+msgctxt "job listing status"
+msgid "Pending Review"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:203
+msgid "Job Listings Settings"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:289
+msgid "Job marked as filled."
+msgstr ""
+
+#: admin/post-meta-box.php:433
+msgctxt "job metabox"
+msgid "Apply method"
+msgstr ""
+
+#: admin/post-meta-box.php:644
+msgctxt "Job metabox"
+msgid "Benefits"
+msgstr ""
+
+#: admin/post-meta-box.php:456
+msgctxt "job metabox"
+msgid "Job apply URL"
+msgstr ""
+
+#: admin/post-meta-box.php:634
+msgctxt "Job metabox"
+msgid "Job Types"
+msgstr ""
+
+#: admin/post-meta-box.php:628
+msgctxt "Job metabox"
+msgid "Required Skills"
+msgstr ""
+
+#: admin/post-meta-box.php:623
+msgctxt "Job metabox"
+msgid "Sector"
+msgstr ""
+
+#: admin/post-meta-box.php:645
+msgctxt "Job metabox"
+msgid "Select benefits"
+msgstr ""
+
+#: admin/post-meta-box.php:635
+msgctxt "Job metabox"
+msgid "Select job types"
+msgstr ""
+
+#: admin/post-meta-box.php:629
+msgctxt "Job metabox"
+msgid "Select or add skills"
+msgstr ""
+
+#: admin/post-meta-box.php:624
+msgctxt "Job metabox"
+msgid "Select sector"
+msgstr ""
+
+#: admin/post-meta-box.php:640
+msgctxt "Job metabox"
+msgid "Select timezone"
+msgstr ""
+
+#: admin/post-meta-box.php:639
+msgctxt "Job metabox"
+msgid "Timezone"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1020
+msgid "Job not found."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:365
+msgctxt "job post form"
+msgid "Add new company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:192
+msgctxt "job post form"
+msgid "Application Deadline"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:234
+msgctxt "job post form"
+msgid "Apply method"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:73
+msgctxt "job post form"
+msgid "Basic details"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:569
+msgctxt "job post form"
+msgid "Benefits"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:461
+msgctxt "job post form"
+msgid "Brief description about the company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:369
+msgctxt "job post form"
+msgid "Cancel"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:354
+msgctxt "job post form"
+msgid "Choose a company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:283
+#: includes/user-dashboard/job-posting.php:527
+#: includes/user-dashboard/job-posting.php:599
+msgctxt "job post form"
+msgid "Collapse"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:281
+msgctxt "job post form"
+msgid "Company details"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:407
+msgctxt "job post form"
+msgid "Company Logo"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:414
+msgctxt "job post form"
+msgid "Company name"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:338
+msgctxt "job post form"
+msgid "Current company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:421
+msgctxt "job post form"
+msgid "e.g. Digi Soft"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:86
+msgctxt "job post form"
+msgid "e.g. Senior Python Developer"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:525
+msgctxt "job post form"
+msgid "Further details"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:256
+msgctxt "job post form"
+msgid "Job apply URL"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:96
+msgctxt "job post form"
+msgid "Job description"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:558
+msgctxt "job post form"
+msgid "Job Types"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:494
+msgctxt "job post form"
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:597
+msgctxt "job post form"
+msgid "Location"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:135
+msgctxt "job post form"
+msgid "Max Salary"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:118
+msgctxt "job post form"
+msgid "Min Salary"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:473
+msgctxt "job post form"
+msgid "Number of employees"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:628
+msgctxt "job post form"
+msgid "Post Job"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:400
+msgctxt "job post form"
+msgid "Remove Logo"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:563
+msgctxt "job post form"
+msgid "Required Skills"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:155
+msgctxt "job post form"
+msgid "Salary Unit"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:542
+msgctxt "job post form"
+msgid "Sector"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:347
+msgctxt "job post form"
+msgid "Select a company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:570
+msgctxt "job post form"
+msgid "Select benefits"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:345
+msgctxt "job post form"
+msgid "Select company"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:559
+msgctxt "job post form"
+msgid "Select job types"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:481
+msgctxt "job post form"
+msgid "Select number of employees"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:564
+msgctxt "job post form"
+msgid "Select or add skills"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:543
+msgctxt "job post form"
+msgid "Select sector"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:548
+msgctxt "job post form"
+msgid "Select timezone"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:454
+msgctxt "job post form"
+msgid "Tagline"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:340
+msgctxt "job post form"
+msgid ""
+"This company is no longer in your saved list but stays on this job. To "
+"change it, pick another company below."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:514
+msgctxt "job post form"
+msgid ""
+"This company will be saved to your companies and assigned to this job when "
+"you post it."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:547
+msgctxt "job post form"
+msgid "Timezone"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:79
+msgctxt "job post form"
+msgid "Title"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:174
+msgctxt "job post form"
+msgid "Total Positions"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:624
+msgctxt "job post form"
+msgid "Update Job"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:402
+msgctxt "job post form"
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:431
+msgctxt "job post form"
+msgid "Website"
+msgstr ""
+
+#: admin/post-meta-box.php:291
+msgid "Job Posted by"
+msgstr ""
+
+#: admin/post-meta-box.php:33
+msgid "Job Settings"
+msgstr ""
+
+#: admin/post-meta-box.php:175
+msgctxt "Job status date placeholder"
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/job-posting.php:1519
+#, php-format
+msgctxt "Job submission message"
+msgid "Deadline: %s"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/job-posting.php:1533
+#, php-format
+msgctxt "Job submission message"
+msgid "Expires: %s"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1452
+msgctxt "Job submission message"
+msgid "Job Submitted Successfully!"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1452
+msgctxt "Job submission message"
+msgid "Job Updated Successfully!"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1480
+msgctxt "Job submission message"
+msgid "Listing is live"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1575
+msgctxt "Job submission message"
+msgid "Manage Jobs"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1479
+msgctxt "Job submission message"
+msgid "Pending Review"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1566
+msgctxt "Job submission message"
+msgid "Post Another Job"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1479
+msgctxt "Job submission message"
+msgid "Under Review"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1553
+msgctxt "Job submission message"
+msgid "View Job Listing"
+msgstr ""
+
+#. %s: job title
+#: includes/user-dashboard/job-posting.php:1462
+#, php-format
+msgctxt "Job submission message"
+msgid ""
+"Your changes saved for job <strong>\"%s\"</strong> and now visible to "
+"everyone."
+msgstr ""
+
+#. %s: job title
+#: includes/user-dashboard/job-posting.php:1465
+#, php-format
+msgctxt "Job submission message"
+msgid ""
+"Your changes saved for job <strong>\"%s\"</strong> and visible to everyone "
+"after admin approval."
+msgstr ""
+
+#. %s: job title
+#: includes/user-dashboard/job-posting.php:1458
+#, php-format
+msgctxt "Job submission message"
+msgid ""
+"Your job listing for <strong>\"%s\"</strong> is now live and visible to "
+"everyone."
+msgstr ""
+
+#. %s: job title
+#: includes/user-dashboard/job-posting.php:1470
+#, php-format
+msgctxt "Job submission message"
+msgid ""
+"Your submitted job <strong>\"%s\"</strong> is pending review and will be "
+"published after admin approval."
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:245
+msgid "Job Submission Settings"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1413
+msgid "Job submitted successfully and is pending review."
+msgstr ""
+
+#: admin/post-meta-box.php:721
+msgid "Job Title"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1060
+msgid "Job title is required."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1063
+msgid "Job title is too long (max 150 characters)."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1066
+msgid "Job title is too short."
+msgstr ""
+
+#: includes/class-post-detail.php:437
+msgid "Job Type:"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:123
+msgid "Job types"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:290
+msgid "Job unfilled."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1367
+msgid "Job updated successfully."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:751
+msgid "Jobs"
+msgstr ""
+
+#: includes/post-types.php:50
+msgid "Jobs list"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:331
+msgid "Jobs listing page (with [workeera_jobs] shortcode)"
+msgstr ""
+
+#: includes/post-types.php:49
+msgid "Jobs navigation"
+msgstr ""
+
+#: admin/settings/pages-settings.php:102
+msgid "Jobs Page"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:236
+msgid "Join as a Job Seeker or Company"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:297
+msgid "Kindly log in to your account to continue."
+msgstr ""
+
+#: admin/settings/field-functions.php:454
+msgid "Left with space"
+msgstr ""
+
+#: admin/settings/field-functions.php:453
+msgid "Left without space"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:268
+msgid "Let's Get Started"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:264
+msgid ""
+"Let's set up your job board in 3 quick steps. We'll create default settings, "
+"the dashboard / jobs pages, and a starter set of skills and sectors."
+msgstr ""
+
+#. %d: maximum job count
+#: includes/user-dashboard/job-posting.php:1053
+msgid "Limit reached. You can only post %d jobs in 24 hours."
+msgstr ""
+
+#. 1: page title, 2: page ID
+#: admin/setup-wizard/class-setup-wizard.php:628
+#, php-format
+msgid "Linked existing page: %1$s (#%2$d)"
+msgstr ""
+
+#: admin/post-meta-box.php:596 admin/post-meta-box.php:824
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/settings/company-settings.php:98
+msgid "LinkedIn field"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:82
+msgid "Listing Duration"
+msgstr ""
+
+#: includes/class-listings.php:213 includes/class-listings.php:1314
+msgctxt "Listing filters"
+msgid "Job Types"
+msgstr ""
+
+#: includes/class-listings.php:208 includes/class-listings.php:1307
+msgctxt "Listing filters"
+msgid "Jobs in"
+msgstr ""
+
+#: includes/class-listings.php:198
+msgctxt "Listing filters"
+msgid "Keyword"
+msgstr ""
+
+#: includes/class-listings.php:203
+msgctxt "Listing filters"
+msgid "Order by"
+msgstr ""
+
+#: includes/class-listings.php:258
+msgctxt "Listing filters"
+msgid "Remote only"
+msgstr ""
+
+#: includes/class-listings.php:243 includes/class-listings.php:248
+msgctxt "Listing filters"
+msgid "Salary"
+msgstr ""
+
+#: includes/class-listings.php:253
+msgctxt "Listing filters"
+msgid "Salary unit"
+msgstr ""
+
+#: includes/class-listings.php:1602
+msgctxt "Listing filters"
+msgid "See less"
+msgstr ""
+
+#: includes/class-listings.php:1602
+msgctxt "Listing filters"
+msgid "See more"
+msgstr ""
+
+#: includes/class-listings.php:1308
+msgctxt "Listing filters"
+msgid "Select"
+msgstr ""
+
+#: includes/class-listings.php:1315
+msgctxt "Listing filters"
+msgid "Select job types"
+msgstr ""
+
+#: includes/class-listings.php:1327
+msgctxt "Listing filters"
+msgid "Select or add skills"
+msgstr ""
+
+#: includes/class-listings.php:1321
+msgctxt "Listing filters"
+msgid "Select timezone"
+msgstr ""
+
+#: includes/class-listings.php:223 includes/class-listings.php:1326
+msgctxt "Listing filters"
+msgid "Skills"
+msgstr ""
+
+#: includes/class-listings.php:218 includes/class-listings.php:1320
+msgctxt "Listing filters"
+msgid "Timezone"
+msgstr ""
+
+#: includes/class-listings.php:263
+msgctxt "Listing filters"
+msgid "Urgent Hiring"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:80
+msgid "Listings per page"
+msgstr ""
+
+#: includes/class-listings.php:122
+msgid "Loading…"
+msgstr ""
+
+#: admin/post-meta-box.php:65 admin/post-meta-box.php:90
+#: admin/settings/job-listings-settings.php:120
+msgid "Location"
+msgstr ""
+
+#: admin/settings/general-settings.php:129
+msgid "Location type"
+msgstr ""
+
+#: includes/job-functions.php:57
+msgctxt "Location type"
+msgid "Hybrid"
+msgstr ""
+
+#: includes/job-functions.php:55
+msgctxt "Location type"
+msgid "On-Site"
+msgstr ""
+
+#: includes/job-functions.php:56
+msgctxt "Location type"
+msgid "Remote"
+msgstr ""
+
+#: admin/post-meta-box.php:1128 includes/common-form-sections.php:163
+msgctxt "Locations Field"
+msgid "12001"
+msgstr ""
+
+#: admin/post-meta-box.php:1111 includes/common-form-sections.php:146
+msgctxt "Locations Field"
+msgid "47 W 13th St, Pennsylvania Avenue, Washington"
+msgstr ""
+
+#: admin/post-meta-box.php:1076 admin/post-meta-box.php:1086
+#: includes/class-listings.php:238 includes/class-listings.php:1184
+#: includes/class-listings.php:1217 includes/common-form-sections.php:111
+#: includes/common-form-sections.php:121
+msgctxt "Locations Field"
+msgid "City"
+msgstr ""
+
+#: admin/post-meta-box.php:1055 admin/post-meta-box.php:1065
+#: includes/class-listings.php:233 includes/class-listings.php:1156
+#: includes/class-listings.php:1172 includes/common-form-sections.php:91
+#: includes/common-form-sections.php:101
+msgctxt "Locations Field"
+msgid "Country"
+msgstr ""
+
+#: includes/class-listings.php:228 includes/class-listings.php:1157
+#: includes/class-listings.php:1185
+msgctxt "Locations Field"
+msgid "Location"
+msgstr ""
+
+#: admin/post-meta-box.php:1163 includes/common-form-sections.php:198
+msgctxt "Locations Field"
+msgid "Location Type"
+msgstr ""
+
+#: admin/post-meta-box.php:1103
+msgctxt "Locations Field"
+msgid "Street Address"
+msgstr ""
+
+#: includes/common-form-sections.php:137
+msgctxt "Locations Field"
+msgid "Street address"
+msgstr ""
+
+#: includes/common-form-sections.php:154
+msgctxt "Locations Field"
+msgid "ZIP code"
+msgstr ""
+
+#: admin/post-meta-box.php:1120
+msgctxt "Locations Field"
+msgid "Zip Code"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:301
+msgid "Login"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:964
+msgid "Logo removed."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:914
+msgid "Logo saved successfully."
+msgstr ""
+
+#. %s: error message
+#: includes/user-dashboard/job-posting.php:875
+#, php-format
+msgctxt "Logo upload error"
+msgid "Action failed. Error: %s"
+msgstr ""
+
+#: admin/admin.php:63
+msgctxt "Main dashboard title"
+msgid "Workeera"
+msgstr ""
+
+#: admin/admin.php:71
+msgctxt "Main menu title"
+msgid "Settings"
+msgstr ""
+
+#: admin/post-meta-box.php:796 includes/user-dashboard/resume-detail.php:207
+msgid "Male"
+msgstr ""
+
+#. %d: number of applications
+#: includes/user-dashboard/manage-jobs.php:538
+#: includes/user-dashboard/manage-jobs.php:551
+msgctxt "manage jobs"
+msgid "%d Application"
+msgid_plural "%d Applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/user-dashboard/manage-jobs.php:75
+msgctxt "manage jobs"
+msgid "Active"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:74
+msgctxt "manage jobs"
+msgid "All Statuses"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:527
+msgctxt "manage jobs"
+msgid "Applications"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:71
+msgctxt "manage jobs"
+msgid "Deadline"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/manage-jobs.php:442
+#, php-format
+msgctxt "manage jobs"
+msgid "Deadline: %s"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:599
+msgctxt "manage jobs"
+msgid "Delete Job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:592
+msgctxt "manage jobs"
+msgid "Edit Job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:77
+msgctxt "manage jobs"
+msgid "Expired"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/manage-jobs.php:453
+#, php-format
+msgctxt "manage jobs"
+msgid "Expired: %s"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/manage-jobs.php:457
+#, php-format
+msgctxt "manage jobs"
+msgid "Expires: %s"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:557
+msgctxt "manage jobs"
+msgid "Featured"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:612
+msgctxt "manage jobs"
+msgid "Filled job? Mark if this position has been filled."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:76
+msgctxt "manage jobs"
+msgid "Inactive"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:46
+msgctxt "manage jobs"
+msgid "Manage Jobs"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:69
+msgctxt "manage jobs"
+msgid "Newest First"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:95
+msgctxt "manage jobs"
+msgid "No Jobs Found"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:70
+msgctxt "manage jobs"
+msgid "Oldest First"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:52
+#: includes/user-dashboard/manage-jobs.php:220
+msgctxt "manage jobs"
+msgid "Post New Job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:102
+#: includes/user-dashboard/manage-jobs.php:221
+msgctxt "manage jobs"
+msgid "Post Your First Job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:65
+msgctxt "manage jobs"
+msgid "Search jobs…"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:68
+msgctxt "manage jobs"
+msgid "Sort By"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:571
+msgctxt "manage jobs"
+msgid "Status"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:529
+msgctxt "manage jobs"
+msgid "View applications for this job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:576
+#: includes/user-dashboard/manage-jobs.php:583
+msgctxt "manage jobs"
+msgid "View Job"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:96
+msgctxt "manage jobs"
+msgid ""
+"You haven't posted any jobs yet, or no jobs match your current filters. "
+"Start by posting your first job listing."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:567
+msgctxt "manage jobs featured"
+msgid "No"
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:562
+msgctxt "manage jobs featured"
+msgid "Yes"
+msgstr ""
+
+#. 1: range start, 2: range end, 3: total count
+#: includes/user-dashboard/manage-jobs.php:203
+#, php-format
+msgctxt "manage jobs pagination"
+msgid "Showing %1$s–%2$s of %3$s jobs"
+msgstr ""
+
+#. %s: human-readable time difference
+#: includes/user-dashboard/manage-jobs.php:437
+#, php-format
+msgctxt "manage jobs time ago"
+msgid "%s ago"
+msgstr ""
+
+#: admin/settings/field-functions.php:510
+msgid "Max"
+msgstr ""
+
+#: admin/settings/company-settings.php:81
+msgid "Max companies per user"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:157
+msgid "Max CV file size"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:116
+msgid "Max CV file uploads"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:97
+msgid "Max job applications"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:146
+msgid "Max job submissions"
+msgstr ""
+
+#: admin/post-meta-box.php:358
+msgid "Max Salary"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:179
+msgid ""
+"Maximum number of characters allowed in the job description field on the job "
+"submission form."
+msgstr ""
+
+#: admin/settings/field-functions.php:495
+msgid "Min"
+msgstr ""
+
+#: admin/post-meta-box.php:342
+msgid "Min Salary"
+msgstr ""
+
+#: includes/common-functions.php:647
+msgid "Monthly"
+msgstr ""
+
+#. %d: total companies
+#: includes/user-dashboard/my-companies.php:375
+msgctxt "My companies"
+msgid "%d companies"
+msgstr ""
+
+#. %s: employee count range
+#: includes/user-dashboard/my-companies.php:296
+#, php-format
+msgctxt "My companies"
+msgid "%s employees"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:109
+#: includes/user-dashboard/my-companies.php:157
+msgctxt "My companies"
+msgid "Add a company"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:77
+msgctxt "My companies"
+msgid "Add New"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:108
+msgctxt "My companies"
+msgid "Add your first company to reuse it when posting jobs."
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:224
+msgctxt "My companies"
+msgid "Brief description about the company"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:207
+msgctxt "My companies"
+msgid "Company name"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:160
+msgctxt "My companies"
+msgid "Create company"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:318
+msgctxt "My companies"
+msgid "Delete"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:208
+msgctxt "My companies"
+msgid "e.g. Digi Soft"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:245
+msgctxt "My companies"
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:201
+msgctxt "My companies"
+msgid "Logo"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:73
+msgctxt "My companies"
+msgid "My Companies"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:107
+msgctxt "My companies"
+msgid "No companies yet"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:231
+msgctxt "My companies"
+msgid "Number of employees"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:197
+msgctxt "My companies"
+msgid "Remove logo"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:317
+msgctxt "My companies"
+msgid "Save changes"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:94
+msgctxt "My companies"
+msgid "Search companies…"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:233
+msgctxt "My companies"
+msgid "Select"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:223
+msgctxt "My companies"
+msgid "Tagline"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:199
+msgctxt "My companies"
+msgid "Upload logo"
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:212
+msgctxt "My companies"
+msgid "Website"
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:301
+#: includes/user-dashboard/resume-detail.php:527
+msgid "Name field cannot be empty."
+msgstr ""
+
+#: includes/class-job-applications.php:1001
+#: includes/class-object-terms-relation.php:780
+#: includes/user-dashboard/employer-profile.php:305
+#: includes/user-dashboard/resume-detail.php:531
+msgid "Name is too long. Please make it shorter."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:408
+msgid ""
+"Need design tweaks, integrations, or custom features? Our team can help "
+"build them out for your job board."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:147
+msgid "Network error. Please check your connection and try again."
+msgstr ""
+
+#: includes/post-types.php:78
+msgid "New candidate"
+msgstr ""
+
+#: includes/post-types.php:38
+msgid "New job"
+msgstr ""
+
+#: includes/class-listings.php:1416
+msgid "Newest First"
+msgstr ""
+
+#: admin/settings/general-settings.php:181
+msgid "No"
+msgstr ""
+
+#. %s: taxonomy plural name
+#: admin/taxonomies/common-taxonomy.php:349
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: admin/job-applications.php:184 admin/job-applications.php:239
+#: includes/user-dashboard/job-applications.php:381
+msgid "No applications selected."
+msgstr ""
+
+#: admin/job-applications.php:250
+msgid "No applications were deleted."
+msgstr ""
+
+#: admin/job-applications.php:146 admin/job-applications.php:193
+#: includes/user-dashboard/job-applications.php:393
+msgid "No applications were updated."
+msgstr ""
+
+#: includes/post-types.php:80
+msgid "No candidates found"
+msgstr ""
+
+#: includes/post-types.php:81
+msgid "No candidates found in trash"
+msgstr ""
+
+#: includes/class-job-applications.php:197
+msgid "No cover letter was provided with this application."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:349
+msgid "No data file found."
+msgstr ""
+
+#: includes/class-job-applications.php:738
+#: includes/user-dashboard/cv-manager.php:374
+msgid "No file uploaded."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:156
+msgid "No file was uploaded."
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:487
+msgid "No files found."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1127
+msgid "No item found to delete."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1017
+msgid "No item found to update."
+msgstr ""
+
+#: includes/class-listings.php:1476 includes/post-types.php:42
+msgid "No jobs found"
+msgstr ""
+
+#: includes/post-types.php:47
+msgid "No jobs found in trash"
+msgstr ""
+
+#: includes/class-listings.php:123 includes/class-listings.php:1477
+msgid "No jobs found matching your criteria."
+msgstr ""
+
+#: includes/company-functions.php:662
+msgid "No logo file was uploaded."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:858
+msgid "No sample data file found for this taxonomy."
+msgstr ""
+
+#: includes/class-listings.php:160
+msgid "Nonce is invalid or expired"
+msgstr ""
+
+#: includes/class-listings.php:151
+msgid "Nonce is missing"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:274
+#: admin/taxonomies/common-taxonomy.php:722
+#: admin/taxonomies/common-taxonomy.php:791
+msgid "None"
+msgstr ""
+
+#: admin/settings/general-settings.php:267
+msgid "Not allowed"
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1013
+msgid "Not allowed to edit/update already submitted jobs."
+msgstr ""
+
+#: admin/free-ai-credits.php:193
+msgid "Not verified yet. Please click the link in your email, then try again."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:120
+msgid "Nothing found to remove."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:148
+msgid "Nothing was changed — every action was already in place."
+msgstr ""
+
+#: admin/post-meta-box.php:578
+msgid "Number of employees"
+msgstr ""
+
+#: admin/settings/company-settings.php:97
+msgid "Number of employees field"
+msgstr ""
+
+#: admin/post-meta-box.php:398
+msgid "Number of Vacancies"
+msgstr ""
+
+#: admin/taxonomies/taxonomy.php:252 admin/taxonomies/taxonomy.php:259
+msgid "of"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:61
+msgid "Off"
+msgstr ""
+
+#: includes/class-listings.php:1417
+msgid "Oldest First"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:60
+msgid "On"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:62
+msgid "On & Required"
+msgstr ""
+
+#: includes/class-listings.php:826 includes/class-post-detail.php:660
+msgid "On-Site"
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:163
+msgid "Only CSV files are allowed."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:425
+msgid "Open Settings"
+msgstr ""
+
+#: includes/class-listings.php:1414
+msgid "Order by"
+msgstr ""
+
+#. 1: page label, 2: page ID
+#: admin/setup-wizard/class-setup-wizard.php:618
+#, php-format
+msgid "Page already configured: %1$s (#%2$d)"
+msgstr ""
+
+#: admin/settings/pages-settings.php:182
+msgid "Pages Settings"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:144
+msgid "PDF"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:89
+msgid "Pending Review"
+msgstr ""
+
+#: admin/post-meta-box.php:752 admin/settings/job-apply-settings.php:47
+#: admin/settings/job-apply-settings.php:103
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-job-applications.php:1026
+msgid "Phone number is required."
+msgstr ""
+
+#: includes/class-job-applications.php:1029
+msgid "Phone number is too long."
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:480
+#: includes/user-dashboard/resume-detail.php:714
+msgid "Photo removed successfully."
+msgstr ""
+
+#: includes/user-dashboard/employer-profile.php:450
+#: includes/user-dashboard/resume-detail.php:683
+msgid "Photo saved successfully."
+msgstr ""
+
+#. %s: error message
+#: includes/user-dashboard/employer-profile.php:421
+#: includes/user-dashboard/resume-detail.php:648
+#, php-format
+msgctxt "Photo upload error"
+msgid "Action failed. Error: %s"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:53
+msgctxt "Picture mime type error"
+msgid "File type is not allowed."
+msgstr ""
+
+#: includes/company-functions.php:675
+#: includes/user-dashboard/class-user-dashboard.php:52
+#: includes/user-dashboard/employer-profile.php:392
+#: includes/user-dashboard/job-posting.php:844
+#: includes/user-dashboard/resume-detail.php:619
+msgctxt "Picture size error"
+msgid "File size too big."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1113
+msgid "Please choose a valid company for this job."
+msgstr ""
+
+#: admin/free-ai-credits.php:258
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1197
+msgid ""
+"Please enter a valid external apply URL (must start with http:// or https://)"
+"."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1120
+msgid ""
+"Please select a company for this job, or click “Add new company” to create "
+"one."
+msgstr ""
+
+#: includes/class-job-applications.php:1060
+msgid "Please select or upload a CV to apply."
+msgstr ""
+
+#: includes/class-post-detail.php:337
+msgid "Position Filled"
+msgstr ""
+
+#: includes/post-types.php:70
+msgctxt "Post type name"
+msgid "Candidates"
+msgstr ""
+
+#: includes/post-types.php:30
+msgctxt "Post type name"
+msgid "Jobs"
+msgstr ""
+
+#: includes/post-types.php:71
+msgctxt "Post type singular name"
+msgid "Candidate"
+msgstr ""
+
+#: includes/post-types.php:31
+msgctxt "Post type singular name"
+msgid "Job"
+msgstr ""
+
+#. %s: human-readable time difference
+#: includes/class-listings.php:681 includes/class-post-detail.php:223
+#: includes/class-post-detail.php:764
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: admin/post-meta-box.php:798 includes/user-dashboard/resume-detail.php:209
+msgid "Prefer not to say"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:910
+msgctxt "recommended jobs"
+msgid "Apply Now"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:553
+msgctxt "recommended jobs"
+msgid "Best Match"
+msgstr ""
+
+#. %s: formatted date
+#: includes/user-dashboard/candidate-jobs.php:842
+#, php-format
+msgctxt "recommended jobs"
+msgid "Deadline: %s"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:557
+msgctxt "recommended jobs"
+msgid "Job Type"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:538
+msgctxt "recommended jobs"
+msgid "Jobs based on your profile and activity"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:554
+msgctxt "recommended jobs"
+msgid "Newest First"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:578
+msgctxt "recommended jobs"
+msgid "No Recommendations Found"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:537
+msgctxt "recommended jobs"
+msgid "Recommended for You"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:550
+msgctxt "recommended jobs"
+msgid "Search jobs..."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:579
+msgctxt "recommended jobs"
+msgid ""
+"Try adjusting your filters or complete your profile to get better matches."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:580
+msgctxt "recommended jobs"
+msgid "Update Profile"
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:851
+msgctxt "recommended jobs"
+msgid "Urgent"
+msgstr ""
+
+#. 1: first item on page, 2: last item on page, 3: total items
+#: includes/user-dashboard/candidate-jobs.php:653
+#, php-format
+msgctxt "recommended jobs pagination"
+msgid "Showing %1$s–%2$s of %3$s jobs"
+msgstr ""
+
+#. %s: human-readable time difference
+#: includes/user-dashboard/candidate-jobs.php:835
+#, php-format
+msgctxt "recommended jobs time ago"
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-post-detail.php:513
+msgid "Related Jobs"
+msgstr ""
+
+#: includes/class-listings.php:818 includes/class-post-detail.php:658
+msgid "Remote"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:134
+msgid "Remote jobs filter"
+msgstr ""
+
+#: includes/class-listings.php:1360
+msgid "Remote Jobs Only"
+msgstr ""
+
+#: includes/class-form-fields.php:595 includes/class-plugin.php:314
+msgid "Remove"
+msgstr ""
+
+#: admin/settings/general-settings.php:194
+msgid "Remove all data on uninstall"
+msgstr ""
+
+#: includes/post-types.php:45
+msgid "Remove company logo"
+msgstr ""
+
+#: includes/class-post-detail.php:487
+msgid "Required Skills"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:282
+#: includes/user-dashboard/resume-detail.php:343
+msgctxt "Resume Details"
+msgid "Collapse"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:183
+msgctxt "Resume Details"
+msgid "Date of Birth"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:123
+msgctxt "Resume Details"
+msgid "Doe"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:152
+msgctxt "Resume Details"
+msgid "Email Address"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:160
+msgctxt "Resume Details"
+msgid "example@abc.com"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:302
+msgctxt "Resume Details"
+msgid "Experience Level"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:116
+msgctxt "Resume Details"
+msgid "Family name"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:280
+msgctxt "Resume Details"
+msgid "Further details"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:196
+msgctxt "Resume Details"
+msgid "Gender"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:100
+msgctxt "Resume Details"
+msgid "Given name"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:135
+msgctxt "Resume Details"
+msgid "Job Title"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:107
+msgctxt "Resume Details"
+msgid "John"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:232
+msgctxt "Resume Details"
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:341
+msgctxt "Resume Details"
+msgid "Location"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:66
+msgctxt "Resume Details"
+msgid "Personal details"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:168
+msgctxt "Resume Details"
+msgid "Phone Number"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:94
+msgctxt "Resume Details"
+msgid "Photo"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:142
+msgctxt "Resume Details"
+msgid "Python Developer"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:87
+msgctxt "Resume Details"
+msgid "Remove Photo"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:362
+msgctxt "Resume Details"
+msgid "Save Details"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:297
+msgctxt "Resume Details"
+msgid "Sector"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:303
+msgctxt "Resume Details"
+msgid "Select Experience Level"
+msgstr ""
+
+#: admin/post-meta-box.php:793 includes/user-dashboard/resume-detail.php:204
+msgctxt "Resume Details"
+msgid "Select gender"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:298
+msgctxt "Resume Details"
+msgid "Select sector"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:314
+msgctxt "Resume Details"
+msgid "Select your skills"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:247
+msgctxt "Resume Details"
+msgid "Short description"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:313
+msgctxt "Resume Details"
+msgid "Skills"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:89
+msgctxt "Resume Details"
+msgid "Upload Photo"
+msgstr ""
+
+#: includes/user-dashboard/resume-detail.php:217
+msgctxt "Resume Details"
+msgid "Website"
+msgstr ""
+
+#: admin/settings/field-functions.php:456
+msgid "Right with space"
+msgstr ""
+
+#: admin/settings/field-functions.php:455
+msgid "Right without space"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:187
+#: admin/setup-wizard/class-setup-wizard.php:367
+msgid "Run Setup"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:145
+msgid "Running setup, please wait..."
+msgstr ""
+
+#: includes/class-listings.php:1239 admin/settings/general-settings.php:326
+#: admin/settings/job-listings-settings.php:121
+msgid "Salary"
+msgstr ""
+
+#: admin/settings/general-settings.php:238
+msgid "Salary Thousands Abbreviation"
+msgstr ""
+
+#: admin/post-meta-box.php:377 admin/settings/general-settings.php:259
+msgid "Salary Unit"
+msgstr ""
+
+#: includes/class-listings.php:1288
+msgid "Salary unit"
+msgstr ""
+
+#: includes/common-functions.php:608
+msgctxt "Salary unit"
+msgid "Day"
+msgstr ""
+
+#: includes/common-functions.php:607
+msgctxt "Salary unit"
+msgid "Hour"
+msgstr ""
+
+#: includes/common-functions.php:610
+msgctxt "Salary unit"
+msgid "Month"
+msgstr ""
+
+#: includes/common-functions.php:609
+msgctxt "Salary unit"
+msgid "Week"
+msgstr ""
+
+#: includes/common-functions.php:611
+msgctxt "Salary unit"
+msgid "Year"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:307
+msgid "Salary unit, currency, listing options, candidate limits, etc."
+msgstr ""
+
+#: includes/class-listings.php:1418
+msgid "Salary: High to Low"
+msgstr ""
+
+#: includes/class-listings.php:1419
+msgid "Salary: Low to High"
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:406
+msgid "Sample file not found for this taxonomy."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:349
+msgid "Sample taxonomy data"
+msgstr ""
+
+#: includes/post-types.php:79
+msgid "Search candidates"
+msgstr ""
+
+#: includes/class-plugin.php:312
+msgid "Search for post items"
+msgstr ""
+
+#: includes/class-plugin.php:313
+msgid "Search for terms"
+msgstr ""
+
+#: includes/post-types.php:41
+msgid "Search jobs"
+msgstr ""
+
+#: includes/class-listings.php:1404
+msgid "Search keywords…"
+msgstr ""
+
+#: includes/class-post-detail.php:446
+msgid "Sector:"
+msgstr ""
+
+#: includes/candidate-functions.php:228 includes/class-job-applications.php:241
+#: admin/taxonomies/class-importdata.php:90
+#: admin/taxonomies/class-importdata.php:130
+#: admin/taxonomies/class-importdata.php:239
+#: admin/taxonomies/class-importdata.php:382
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-job-applications.php:173
+msgid "Security check failed. Please refresh the page."
+msgstr ""
+
+#: admin/post-meta-box.php:384 includes/class-listings.php:1415
+#: includes/user-dashboard/job-posting.php:161
+msgid "Select"
+msgstr ""
+
+#. 1: parent taxonomy name, 2: current taxonomy singular name
+#: admin/taxonomies/common-taxonomy.php:280
+#: admin/taxonomies/common-taxonomy.php:762
+#, php-format
+msgid "Select %1$s for this %2$s."
+msgstr ""
+
+#. %s: parent taxonomy name
+#: admin/taxonomies/common-taxonomy.php:273
+#: admin/taxonomies/common-taxonomy.php:755
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:311
+#: admin/taxonomies/common-taxonomy.php:363
+msgid "Select bulk action"
+msgstr ""
+
+#: admin/post-meta-box.php:983 includes/class-listings.php:1080
+#: includes/common-form-sections.php:21 admin/settings/general-settings.php:148
+#: admin/settings/general-settings.php:153
+#: admin/settings/general-settings.php:162
+msgid "Select Country"
+msgstr ""
+
+#: admin/settings/pages-settings.php:113
+msgid "Select jobs listing page and add [workeera_jobs] shortcode."
+msgstr ""
+
+#: admin/post-meta-box.php:586
+msgid "Select number of employees"
+msgstr ""
+
+#: admin/settings/pages-settings.php:89 admin/settings/pages-settings.php:110
+#: admin/settings/pages-settings.php:131
+msgid "Select page"
+msgstr ""
+
+#: includes/class-listings.php:1283
+msgid "Select salary unit"
+msgstr ""
+
+#: admin/settings/pages-settings.php:134
+msgid "Select terms and conditions page."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:152
+msgid ""
+"Select the file types that candidates are allowed to upload for their CV."
+msgstr ""
+
+#: admin/post-meta-box.php:298 admin/post-meta-box.php:711
+msgid "Select user"
+msgstr ""
+
+#: admin/settings/pages-settings.php:92
+msgid "Select user dashboard page and add [workeera_user_dashboard] shortcode."
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:237
+msgid "Select your role to get started — we'll personalize your experience."
+msgstr ""
+
+#: includes/class-plugin.php:249
+#: includes/user-dashboard/job-applications.php:75
+msgctxt "Select2 dropdown"
+msgid "Loading more results..."
+msgstr ""
+
+#: includes/class-plugin.php:250
+#: includes/user-dashboard/job-applications.php:76
+msgctxt "Select2 dropdown"
+msgid "No results found"
+msgstr ""
+
+#: includes/class-plugin.php:247
+msgctxt "Select2 dropdown"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/class-plugin.php:248
+#: includes/user-dashboard/job-applications.php:74
+msgctxt "Select2 dropdown"
+msgid "Searching..."
+msgstr ""
+
+#: includes/class-plugin.php:252
+msgctxt "Select2 dropdown"
+msgid "sectors"
+msgstr ""
+
+#: includes/class-plugin.php:251
+msgctxt "Select2 dropdown"
+msgid "You can only select"
+msgstr ""
+
+#: admin/free-ai-credits.php:191
+msgid "Sending…"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:197
+msgid ""
+"Set apply job method. Internal system applications, external site URL, OR "
+"Both."
+msgstr ""
+
+#: includes/post-types.php:44
+msgid "Set company logo"
+msgstr ""
+
+#: admin/settings/candidate-settings.php:92
+msgid "Set default status for new candidates."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:111
+msgid "Set how many jobs a user can apply per day. Set 0 for unlimited."
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:160
+msgid "Set how many jobs a user can post per day. Set 0 for unlimited."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:172
+msgid ""
+"Set the maximum file size allowed for CV uploads. Larger files may take "
+"longer to upload."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:130
+msgid ""
+"Set the maximum number of CV files a candidate can upload to their profile."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:396
+msgid "Setup Complete!"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:100
+msgctxt "Setup wizard menu title"
+msgid "Setup Wizard"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:99
+msgctxt "Setup wizard page title"
+msgid "Workeera Setup Wizard"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:237
+msgctxt "Setup wizard step label"
+msgid "Done"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:233
+msgctxt "Setup wizard step label"
+msgid "Setup"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:229
+msgctxt "Setup wizard step label"
+msgid "Welcome"
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:140
+msgid "Show the cover letter field on the job apply form."
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:126
+msgid "Show the CV / Resume selection on the job apply form."
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:112
+msgid ""
+"Show the phone number field on the job apply form. When enabled, the phone "
+"also appears in the applicants lists."
+msgstr ""
+
+#: admin/settings/company-settings.php:111
+msgid "Show this field in the company forms (job posting + My Companies)."
+msgstr ""
+
+#. %d: number of results
+#: includes/class-listings.php:126
+msgid "Showing %d results"
+msgstr ""
+
+#: includes/class-object-terms-relation.php:776
+msgid "Skill name cannot be empty."
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:125
+msgid "Skills"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:273
+#: admin/setup-wizard/class-setup-wizard.php:376
+msgid "Skip for now"
+msgstr ""
+
+#. %s: option name
+#: admin/setup-wizard/class-setup-wizard.php:580
+#, php-format
+msgid "Skipped %s (already saved)."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:922
+#: admin/taxonomies/common-taxonomy.php:1039
+msgid "Slug cannot be empty."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:914
+#: admin/taxonomies/common-taxonomy.php:1031
+msgid "Slug is too long. Please make it shorter."
+msgstr ""
+
+#: admin/free-ai-credits.php:194 includes/class-listings.php:124
+#: admin/setup-wizard/class-setup-wizard.php:146
+#: includes/user-dashboard/candidate-jobs.php:49
+#: includes/user-dashboard/candidate-jobs.php:512
+#: includes/user-dashboard/job-applications.php:63
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: admin/free-ai-credits.php:515
+msgid ""
+"Success! Your email is verified and your free AI credits are now active."
+msgstr ""
+
+#: admin/post-meta-box.php:563
+msgid "Tagline"
+msgstr ""
+
+#: admin/settings/company-settings.php:96
+msgid "Tagline field"
+msgstr ""
+
+#. %s: term label
+#: admin/taxonomies/common-taxonomy.php:410
+#, php-format
+msgctxt "Term selection"
+msgid "Select %s"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:340
+msgid "Terms & Conditions page"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:759
+msgid "Terms and Conditions"
+msgstr ""
+
+#: admin/settings/pages-settings.php:123
+msgid "Terms and Conditions Page"
+msgstr ""
+
+#: includes/class-job-applications.php:1113
+msgid "Thank you for applying! Your application has been received."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:398
+msgid ""
+"Thanks for installing Workeera. Your job board is ready — you can start "
+"adding jobs, accepting candidates, or fine-tune your settings whenever you "
+"like."
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:450
+msgid "That company could not be deleted."
+msgstr ""
+
+#: includes/company-functions.php:391
+msgid "That company could not be found."
+msgstr ""
+
+#: admin/free-ai-credits.php:518
+msgid ""
+"That verification link has expired or is invalid. Please request a new one "
+"below."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:249
+msgid ""
+"The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
+"usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: includes/class-job-applications.php:970
+msgid "The application deadline for this job has passed."
+msgstr ""
+
+#: includes/company-functions.php:449
+msgid "The company could not be saved. Please try again."
+msgstr ""
+
+#: admin/free-ai-credits.php:282
+msgid "The request was rejected. Please try again later."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:929
+#: admin/taxonomies/common-taxonomy.php:974
+msgid "There is some error adding this term."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:1047
+#: admin/taxonomies/common-taxonomy.php:1091
+msgid "There is some error updating this term."
+msgstr ""
+
+#: includes/class-object-terms-relation.php:811
+msgid "There was an error adding this skill."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:760
+msgid ""
+"These terms and conditions outline the rules and regulations for the use of "
+"this website and its services. Please review and edit this page to fit your "
+"organisation before publishing."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:247
+msgid "This application has already been withdrawn."
+msgstr ""
+
+#: includes/post-types.php:88
+msgid "This is where you can see all candidates."
+msgstr ""
+
+#: includes/post-types.php:54
+msgid "This is where you can see all jobs."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1034
+msgid "This job is expired already."
+msgstr ""
+
+#: includes/class-job-applications.php:944
+msgid "This job is not available."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1030
+msgid "This job is pending review. You can make changes after approval."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1032
+msgid "This job is under review. You can make changes after approval."
+msgstr ""
+
+#: includes/class-job-applications.php:962
+msgid "This job listing has expired."
+msgstr ""
+
+#: includes/class-job-applications.php:976
+msgid "This job position has already been filled."
+msgstr ""
+
+#: includes/user-dashboard/my-companies.php:62
+msgid "This section is only available to employers."
+msgstr ""
+
+#: admin/settings/field-functions.php:468
+msgid "Thousand separator"
+msgstr ""
+
+#: includes/class-post-detail.php:455
+msgid "Timezone:"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:124
+msgid "Timezones"
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:906
+#: admin/taxonomies/common-taxonomy.php:1023
+msgid "Title field cannot be empty."
+msgstr ""
+
+#: admin/taxonomies/common-taxonomy.php:909
+#: admin/taxonomies/common-taxonomy.php:1026
+msgid "Title is too long. Please make it shorter."
+msgstr ""
+
+#: admin/settings/candidate-settings.php:149
+msgid "TXT"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:291
+msgid ""
+"Uncheck anything you'd rather configure manually later. All items are "
+"recommended."
+msgstr ""
+
+#: admin/taxonomies/class-importdata.php:257
+#: admin/taxonomies/class-importdata.php:849
+msgid "Unknown taxonomy."
+msgstr ""
+
+#: admin/settings/job-apply-settings.php:48
+#: admin/settings/job-apply-settings.php:117
+msgid "Upload CV"
+msgstr ""
+
+#: includes/company-functions.php:702
+msgid "Upload failed."
+msgstr ""
+
+#. %s: error message
+#: includes/class-job-applications.php:790
+#: includes/user-dashboard/cv-manager.php:418
+#, php-format
+msgid "Upload failed: %s"
+msgstr ""
+
+#: includes/user-dashboard/cv-manager.php:129
+msgid "Upload your CV file for better visibility"
+msgstr ""
+
+#: includes/class-listings.php:695 includes/class-post-detail.php:251
+msgid "Urgent"
+msgstr ""
+
+#: includes/class-listings.php:1372
+msgid "Urgent Hiring"
+msgstr ""
+
+#: admin/settings/job-listings-settings.php:147
+msgid "Urgent Hiring filter"
+msgstr ""
+
+#: admin/post-meta-box.php:502
+msgid "Urgent hiring?"
+msgstr ""
+
+#: admin/post-meta-box.php:503
+msgid "Urgent till"
+msgstr ""
+
+#: includes/post-types.php:46
+msgid "Use as company logo"
+msgstr ""
+
+#: includes/class-plugin.php:308
+msgid "Use these pictures"
+msgstr ""
+
+#: includes/class-plugin.php:307
+msgid "Use this image"
+msgstr ""
+
+#: includes/class-plugin.php:310
+msgid "Use this video"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:743
+msgid "User Dashboard"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:322
+msgid "User Dashboard page (with [workeera_user_dashboard] shortcode)"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:273
+msgctxt "user type"
+msgid "Company"
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:252
+msgctxt "user type"
+msgid "Job Seeker"
+msgstr ""
+
+#: admin/settings/job-submission-settings.php:109
+msgid "Users cannot edit"
+msgstr ""
+
+#: includes/class-post-detail.php:325
+msgid "Vacancies:"
+msgstr ""
+
+#: includes/post-types.php:39
+msgid "View job"
+msgstr ""
+
+#: includes/post-types.php:40
+msgid "View jobs"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:412
+msgid "Visit Workeera"
+msgstr ""
+
+#: admin/free-ai-credits.php:521
+msgid ""
+"We could not confirm your verification. Please try again, or request a new "
+"link below."
+msgstr ""
+
+#: admin/post-meta-box.php:546
+msgid "Website"
+msgstr ""
+
+#: admin/post-meta-box.php:809
+msgid "Website URL"
+msgstr ""
+
+#: includes/class-plugin.php:258
+msgctxt "Week days short"
+msgid "Fri"
+msgstr ""
+
+#: includes/class-plugin.php:254
+msgctxt "Week days short"
+msgid "Mon"
+msgstr ""
+
+#: includes/class-plugin.php:259
+msgctxt "Week days short"
+msgid "Sat"
+msgstr ""
+
+#: includes/class-plugin.php:253
+msgctxt "Week days short"
+msgid "Sun"
+msgstr ""
+
+#: includes/class-plugin.php:257
+msgctxt "Week days short"
+msgid "Thu"
+msgstr ""
+
+#: includes/class-plugin.php:255
+msgctxt "Week days short"
+msgid "Tue"
+msgstr ""
+
+#: includes/class-plugin.php:256
+msgctxt "Week days short"
+msgid "Wed"
+msgstr ""
+
+#: includes/common-functions.php:639
+msgid "Weekly"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:262
+msgid "Welcome to Workeera"
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:188
+msgid ""
+"Welcome to Workeera! Finish the quick setup to get your job board ready in "
+"minutes."
+msgstr ""
+
+#: admin/setup-wizard/class-setup-wizard.php:289
+msgid "What would you like to set up?"
+msgstr ""
+
+#: admin/settings/general-settings.php:202
+msgid ""
+"When enabled, deleting Workeera from the Plugins screen will permanently "
+"drop all job listings, candidates, applications, taxonomy terms, uploaded "
+"CVs, and plugin settings. Leave OFF if you might reinstall the plugin later."
+msgstr ""
+
+#: admin/settings/general-settings.php:185
+msgid ""
+"When enabled, the \"Job Seeker or Company\" role chooser is removed and "
+"every new user is registered as a job seeker (candidate) by default. "
+"Existing accounts keep their current role."
+msgstr ""
+
+#: includes/class-post-detail.php:464
+msgid "Work Type:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Workeera Team"
+msgstr ""
+
+#. Name of the plugin
+msgid "Workeera – Remote Tech Job Board"
+msgstr ""
+
+#: includes/common-functions.php:655
+msgid "Yearly"
+msgstr ""
+
+#: admin/settings/general-settings.php:182
+msgid "Yes, disable"
+msgstr ""
+
+#: includes/class-job-applications.php:449
+msgid "You are not a candidate. Only a candidate user can apply for a job."
+msgstr ""
+
+#: admin/admin.php:109 admin/free-ai-credits.php:534
+#: admin/job-applications.php:80 admin/setup-wizard/class-setup-wizard.php:217
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: includes/class-object-terms-relation.php:768
+msgid "You are not allowed to create skills."
+msgstr ""
+
+#: includes/user-dashboard/manage-jobs.php:677
+msgid "You are not allowed to delete this job."
+msgstr ""
+
+#: admin/free-ai-credits.php:253 admin/setup-wizard/class-setup-wizard.php:449
+#: admin/setup-wizard/class-setup-wizard.php:505
+#: admin/setup-wizard/class-setup-wizard.php:523
+#: admin/taxonomies/class-importdata.php:95
+#: admin/taxonomies/class-importdata.php:135
+#: admin/taxonomies/class-importdata.php:242
+#: admin/taxonomies/class-importdata.php:385
+#: admin/taxonomies/common-taxonomy.php:897
+#: admin/taxonomies/common-taxonomy.php:1009
+#: admin/taxonomies/common-taxonomy.php:1117
+#: admin/taxonomies/common-taxonomy.php:1121
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/candidate-functions.php:237 includes/candidate-functions.php:251
+#: includes/class-job-applications.php:247
+#: includes/class-job-applications.php:276
+#: includes/class-job-applications.php:298
+msgid "You are not allowed to download this file."
+msgstr ""
+
+#: includes/user-dashboard/job-posting.php:1016
+#: includes/user-dashboard/manage-jobs.php:259
+msgid "You are not allowed to edit this job."
+msgstr ""
+
+#: admin/job-applications.php:130 admin/job-applications.php:174
+#: admin/job-applications.php:229 admin/job-applications.php:289
+#: admin/job-applications.php:360 includes/class-job-applications.php:938
+#: includes/user-dashboard/candidate-jobs.php:146
+#: includes/user-dashboard/candidate-jobs.php:611
+#: includes/user-dashboard/employer-profile.php:294
+#: includes/user-dashboard/employer-profile.php:378
+#: includes/user-dashboard/employer-profile.php:472
+#: includes/user-dashboard/job-posting.php:820
+#: includes/user-dashboard/job-posting.php:937
+#: includes/user-dashboard/job-posting.php:948
+#: includes/user-dashboard/job-posting.php:996
+#: includes/user-dashboard/my-companies.php:51
+#: includes/user-dashboard/resume-detail.php:520
+#: includes/user-dashboard/resume-detail.php:605
+#: includes/user-dashboard/resume-detail.php:706
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/user-dashboard/job-applications.php:329
+msgid "You are not allowed to update this application."
+msgstr ""
+
+#: includes/class-job-applications.php:192
+msgid "You are not allowed to view this cover letter."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:243
+msgid "You are not allowed to withdraw this application."
+msgstr ""
+
+#: includes/user-dashboard/class-user-dashboard.php:296
+msgid "You are not logged in!"
+msgstr ""
+
+#: includes/class-job-applications.php:511
+#: includes/class-job-applications.php:990
+msgid "You have already applied for this job."
+msgstr ""
+
+#. %d: maximum companies per user
+#: includes/company-functions.php:428
+msgid "You have reached the limit of %d companies."
+msgstr ""
+
+#: includes/class-job-applications.php:753
+msgid "You have reached the maximum number of CV files."
+msgstr ""
+
+#: includes/user-dashboard/candidate-jobs.php:140
+#: includes/user-dashboard/candidate-jobs.php:221
+#: includes/user-dashboard/candidate-jobs.php:604
+#: includes/user-dashboard/cv-manager.php:365
+#: includes/user-dashboard/cv-manager.php:471
+#: includes/user-dashboard/job-applications.php:245
+#: includes/user-dashboard/job-applications.php:311
+#: includes/user-dashboard/job-applications.php:364
+#: includes/user-dashboard/job-posting.php:989
+#: includes/user-dashboard/manage-jobs.php:158
+#: includes/user-dashboard/manage-jobs.php:247
+#: includes/user-dashboard/manage-jobs.php:666
+msgid "You must be logged in."
+msgstr ""
+
+#: admin/free-ai-credits.php:577
+msgid "you@company.com"
+msgstr ""
+
+#: includes/class-job-applications.php:949
+msgid "Your profile is not approved yet."
+msgstr ""

@@ -1,0 +1,407 @@
+/* ============================================================
+   WRAPPER & CONTAINER
+   ============================================================ */
+.workeera-jobdetail-wrapper {
+  font-family: var(--workeera-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--workeera-primary-textcolor);
+  background-color: var(--workeera-bg-soft);
+  padding: var(--workeera-space-6) 0;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.workeera-jobdetail-header {
+  background-color: var(--workeera-bg-main);
+  border-radius: var(--workeera-border-radius-lg);
+  border: 1px solid var(--workeera-border-color);
+  padding: var(--workeera-space-5) var(--workeera-space-4);
+  margin-bottom: var(--workeera-space-4);
+}
+
+.workeera-jobdetail-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--workeera-space-3);
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+  line-height: 1.3;
+  flex: 1;
+  min-width: 0;
+}
+
+.workeera-jobdetail-badges {
+  display: flex;
+  gap: var(--workeera-space-2);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* Reuse badge styles from listing, just scope them */
+.workeera-jobdetail-badges .workeera-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.workeera-jobdetail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--workeera-space-2) var(--workeera-space-4);
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--workeera-text-muted);
+}
+
+.workeera-jobdetail-meta-item svg {
+  flex-shrink: 0;
+  color: var(--workeera-text-light);
+}
+
+.workeera-jobdetail-meta-item strong {
+  font-weight: 600;
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-jobdetail-salary-card {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--workeera-space-2);
+  background-color: var(--workeera-lightinfo-color);
+  color: var(--workeera-info-color);
+  font-size: 16px;
+  font-weight: 700;
+  padding: var(--workeera-space-2) var(--workeera-space-3);
+  border-radius: var(--workeera-border-radius-md);
+  margin-top: var(--workeera-space-2);
+}
+
+.workeera-jobdetail-salary-card span {
+  line-height: 1px;
+}
+
+.workeera-mobile-apply-container,
+.workeera-jobdetail-apply-second-con {
+  display: none;
+}
+
+/* ============================================================
+   CONTENT GRID (main + sidebar)
+   ============================================================ */
+.workeera-jobdetail-content {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: var(--workeera-space-4);
+  align-items: start;
+}
+
+/* ============================================================
+   MAIN COLUMN
+   ============================================================ */
+.workeera-jobdetail-main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--workeera-space-4);
+}
+
+.workeera-jobdetail-section {
+  background-color: var(--workeera-bg-main);
+  border-radius: var(--workeera-border-radius-lg);
+  border: 1px solid var(--workeera-border-color);
+  padding: var(--workeera-space-4);
+}
+
+.workeera-jobdetail-section-title {
+  margin: 0 0 var(--workeera-space-3);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--workeera-primary-textcolor);
+  border-bottom: 1px solid var(--workeera-border-color);
+  padding-bottom: var(--workeera-space-2);
+}
+
+.workeera-jobdetail-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--workeera-text-muted);
+}
+
+.workeera-jobdetail-description p {
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-description ul,
+.workeera-jobdetail-description ol {
+  margin-left: var(--workeera-space-4);
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-description li {
+  margin-bottom: var(--workeera-space-1);
+}
+
+/* TAGS */
+.workeera-jobdetail-tags {
+  display: flex;
+  flex-direction: column;
+  gap: var(--workeera-space-2);
+}
+
+.workeera-jobdetail-tag-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--workeera-space-2);
+}
+
+.workeera-jobdetail-tag-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--workeera-primary-textcolor);
+  min-width: 90px;
+}
+
+/* SKILLS */
+.workeera-jobdetail-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--workeera-space-2);
+}
+
+.workeera-jobdetail-skill {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #e0f2fe;
+  color: #075985;
+  border-radius: 999px;
+}
+
+/* RELATED JOBS */
+.workeera-jobdetail-related {
+  display: flex;
+  flex-direction: column;
+  gap: var(--workeera-space-3);
+}
+
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+.workeera-jobdetail-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--workeera-space-4);
+}
+
+/* Company Card */
+.workeera-jobdetail-company-card {
+  background-color: var(--workeera-bg-main);
+  border-radius: var(--workeera-border-radius-lg);
+  border: 1px solid var(--workeera-border-color);
+  padding: var(--workeera-space-4);
+  text-align: center;
+}
+
+.workeera-jobdetail-company-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-company-logo .workeera-job-logobox {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--workeera-border-radius-md);
+  border: 1px solid var(--workeera-border-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.workeera-jobdetail-company-name {
+  margin: 0 0 var(--workeera-space-1);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-jobdetail-company-desc {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-company-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--workeera-primary-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.workeera-jobdetail-company-website:hover {
+  color: var(--workeera-primary-color-hover);
+}
+
+.workeera-jobdetail-apply-container {
+  position: relative;
+  z-index: 5;
+}
+
+.workeera-jobdetail-content .workeera-jobdetail-apply-btn,
+.workeera-mobile-apply-container .workeera-jobdetail-apply-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  gap: var(--workeera-space-2);
+  cursor: pointer;
+}
+
+/* Sidebar Salary Highlight */
+.workeera-jobdetail-sidebar-salary {
+  background-color: var(--workeera-bg-main);
+  border-radius: var(--workeera-border-radius-lg);
+  border: 1px solid var(--workeera-border-color);
+  padding: var(--workeera-space-3) var(--workeera-space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--workeera-space-3);
+}
+
+.workeera-jobdetail-sidebar-salary-icon {
+  display: inline-flex;
+}
+
+.workeera-jobdetail-sidebar-salary-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.workeera-jobdetail-sidebar-salary-amount {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--workeera-success-color);
+}
+
+.workeera-jobdetail-sidebar-salary-unit {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+}
+
+/* Ensure badge variants work everywhere */
+.workeera-badge-featured {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.workeera-badge-urgent {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.workeera-badge-info {
+  background-color: #e0f2fe;
+  color: #075985;
+}
+
+/* Optional: a base badge style if you ever use .workeera-badge without a variant */
+.workeera-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1024px) {
+  .workeera-jobdetail-sidebar {
+    display: none;
+  }
+
+  .workeera-mobile-apply-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--workeera-space-3);
+    margin-bottom: var(--workeera-space-4);
+  }
+
+  .workeera-mobile-apply-container .workeera-jobdetail-apply-container-sticky {
+    position: static;
+  }
+
+  .workeera-jobdetail-content {
+    grid-template-columns: 1fr;
+  }
+
+  .workeera-jobdetail-title {
+    font-size: 22px;
+  }
+
+  .workeera-jobdetail-meta {
+    gap: var(--workeera-space-2) var(--workeera-space-3);
+  }
+}
+
+@media (max-width: 768px) {
+  .workeera-jobdetail-header {
+    padding: var(--workeera-space-4) var(--workeera-space-3);
+  }
+
+  .workeera-jobdetail-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .workeera-jobdetail-meta {
+    gap: var(--workeera-space-3);
+  }
+
+  .workeera-jobdetail-salary-card {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .workeera-jobdetail-apply-container {
+    position: static;
+  }
+
+  .workeera-jobdetail-apply-second-con {
+    display: inline-block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,696 @@
+/* ==========================================================================
+   Employer Job Applications — dashboard section
+   ========================================================================== */
+
+.workeera-empapps-wrap {
+  display: inline-block;
+  width: 100%;
+  padding: 48px 16px;
+  font-family: var(--workeera-font-family);
+  color: var(--workeera-primary-textcolor);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Header                                                                     */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-header {
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-empapps-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--workeera-primary-textcolor);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Filter bar                                                                 */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-filterbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--workeera-space-2);
+  margin-bottom: var(--workeera-space-3);
+  align-items: center;
+}
+
+.workeera-empapps-filterbar .workeera-empapps-filters-wrap {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  width: 100%;
+  gap: 8px;
+}
+
+.workeera-empapps-wrap .workeera-empapps-search-wrap {
+  position: relative;
+  flex: 1 1 240px;
+  min-width: 200px;
+}
+
+.workeera-empapps-wrap .workeera-empapps-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--workeera-text-muted);
+  pointer-events: none;
+  display: flex;
+}
+
+.workeera-empapps-wrap .workeera-empapps-field-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  background: var(--workeera-bg-main);
+  padding: 0 12px 0 36px;
+  font-size: 14px;
+  color: var(--workeera-primary-textcolor);
+  outline: none;
+}
+
+.workeera-empapps-wrap .workeera-empapps-field-input:focus {
+  border-color: var(--workeera-primary-color);
+}
+
+.workeera-empapps-wrap .workeera-empapps-field-select {
+  height: 40px;
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  background: var(--workeera-bg-main);
+  padding: 0 28px 0 12px;
+  font-size: 14px;
+  color: var(--workeera-primary-textcolor);
+  outline: none;
+  min-width: 150px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%23475569" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.workeera-empapps-wrap .workeera-empapps-field-select:focus {
+  border-color: var(--workeera-primary-color);
+}
+
+/* Select2 should match the field selects visually. */
+.workeera-empapps-job-select.select2-hidden-accessible+.select2-container .select2-selection {
+  height: 40px;
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+}
+
+.workeera-empapps-job-select.select2-hidden-accessible+.select2-container .select2-selection__rendered {
+  line-height: 38px;
+  padding: 0 28px 0 12px;
+  color: var(--workeera-primary-textcolor);
+  font-size: 14px;
+}
+
+.workeera-empapps-job-select.select2-hidden-accessible+.select2-container .select2-selection__arrow {
+  height: 38px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Bulk actions bar                                                           */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-bulk-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--workeera-space-2);
+  background: var(--workeera-bg-soft);
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  padding: 10px var(--workeera-space-3);
+  margin-bottom: var(--workeera-space-3);
+}
+
+.workeera-empapps-bulk-selectall {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  cursor: pointer;
+  margin: 0;
+}
+
+.workeera-empapps-bulk-master-chk {
+  margin: 0;
+  cursor: pointer;
+}
+
+.workeera-empapps-bulk-count {
+  font-size: 13px;
+  color: var(--workeera-primary-color);
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.workeera-empapps-bulk-action-select {
+  min-width: 180px;
+}
+
+.workeera-empapps-bulk-apply-btn {
+  height: 40px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* List holder                                                                */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-list-holder {
+  position: relative;
+}
+
+.workeera-empapps-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--workeera-space-2);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Application item                                                           */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-item {
+  background: var(--workeera-bg-main);
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  position: relative;
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+.workeera-empapps-item:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, .06);
+}
+
+.workeera-empapps-item-main {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+  align-items: center;
+  gap: var(--workeera-space-3);
+  padding: var(--workeera-space-3);
+}
+
+.workeera-empapps-checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  cursor: pointer;
+}
+
+.workeera-empapps-item-chk {
+  margin: 0;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+/* Profile picture (background-image, no <img>). */
+.workeera-empapps-applicant-pic-wrap {
+  display: flex;
+}
+
+.workeera-user-profile-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--workeera-bg-muted);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  border: 1px solid var(--workeera-border-color);
+}
+
+.workeera-user-profile-pic-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--workeera-text-light);
+}
+
+/* Applicant info */
+.workeera-empapps-applicant-info {
+  min-width: 0;
+}
+
+.workeera-empapps-applicant-name {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--workeera-primary-textcolor);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.workeera-empapps-applicant-jtitle {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  margin-bottom: 4px;
+}
+
+.workeera-empapps-applicant-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--workeera-text-light);
+}
+
+.workeera-empapps-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.workeera-empapps-meta-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.workeera-empapps-meta-item a:hover {
+  color: var(--workeera-primary-color);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Status dropdown                                                            */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-status-action {
+  position: relative;
+}
+
+.workeera-empapps-status-action button,
+.workeera-empapps-status-action button:hover,
+.workeera-empapps-status-action button:active,
+.workeera-empapps-status-action button:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border-radius: var(--workeera-border-radius-md);
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background .15s ease;
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-trigger:hover {
+  background: var(--workeera-bg-soft);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-chevron {
+  color: var(--workeera-text-muted);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-pending {
+  background: var(--workeera-lightwarning-color);
+  color: var(--workeera-warning-color);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-reviewed {
+  background: var(--workeera-lightinfo-color);
+  color: var(--workeera-info-color);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-shortlisted {
+  background: var(--workeera-lightsuccess-color);
+  color: var(--workeera-success-color);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-rejected {
+  background: var(--workeera-lightdanger-color);
+  color: var(--workeera-danger-color);
+}
+
+/* "Withdrawn" tag — rendered before the status dropdown when the candidate
+   withdrew the application. The action cell turns into a small flex row so
+   the tag sits inline to the left of the dropdown trigger. */
+.workeera-empapps-wrap .workeera-empapps-status-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.workeera-empapps-wrap .workeera-empapps-withdrawn-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background: var(--workeera-bg-muted);
+  color: var(--workeera-text-muted);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 5;
+  background: var(--workeera-bg-main);
+  border: 1px solid var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .1);
+  min-width: 180px;
+  padding: 4px;
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-menu-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--workeera-primary-textcolor);
+  cursor: pointer;
+  border-radius: var(--workeera-border-radius-sm);
+  text-align: left;
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-menu-item:hover {
+  background: var(--workeera-bg-soft);
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-menu-active {
+  background: var(--workeera-bg-muted);
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-empapps-wrap .workeera-empapps-status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Actions area (download CV)                                                 */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.workeera-empapps-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Actions dropdown (Download CV / View Cover Letter / addon links)           */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-wrap .workeera-appactions {
+  position: relative;
+  display: inline-flex;
+}
+
+.workeera-empapps-wrap .workeera-appactions-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid var(--workeera-border-color, #e2e8f0);
+  border-radius: var(--workeera-border-radius-md, 8px);
+  padding: 5px 12px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--workeera-primary-textcolor, #0f172a);
+  transition: background .15s ease;
+}
+
+.workeera-empapps-wrap .workeera-appactions-trigger:hover {
+  background: var(--workeera-bg-soft, #f8fafc);
+}
+
+.workeera-empapps-wrap .workeera-appactions-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 5;
+  background: var(--workeera-bg-main, #fff);
+  border: 1px solid var(--workeera-border-color, #e2e8f0);
+  border-radius: var(--workeera-border-radius-md, 8px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, .1);
+  min-width: 190px;
+  padding: 4px;
+}
+
+.workeera-empapps-wrap .workeera-appactions-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--workeera-primary-textcolor, #0f172a);
+  cursor: pointer;
+  border-radius: var(--workeera-border-radius-sm, 6px);
+  text-align: left;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.workeera-empapps-wrap .workeera-appactions-item:hover {
+  background: var(--workeera-bg-soft, #f8fafc);
+  color: var(--workeera-primary-textcolor, #0f172a);
+}
+
+.workeera-empapps-wrap .workeera-appactions-item svg {
+  flex-shrink: 0;
+  color: var(--workeera-text-muted, #64748b);
+}
+
+/* Cover letter popup (rendered inside the shared confirm modal, appended to
+   <body>, so these are intentionally not scoped under the list wrap). */
+.workeera-coverletter-popup {
+  min-width: 280px;
+  max-width: 560px;
+}
+
+.workeera-coverletter-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--workeera-border-color, #e2e8f0);
+}
+
+.workeera-coverletter-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.workeera-coverletter-applicant {
+  font-size: 13px;
+  color: var(--workeera-text-muted, #64748b);
+}
+
+.workeera-coverletter-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.6;
+  font-size: 14px;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.workeera-coverletter-error {
+  color: var(--workeera-danger-color, #dc2626);
+  font-size: 14px;
+  margin: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Bottom job-info bar                                                        */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-jobinfo-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  background: var(--workeera-bg-soft);
+  border-top: 1px solid var(--workeera-border-color);
+  border-bottom-left-radius: var(--workeera-border-radius-md);
+  border-bottom-right-radius: var(--workeera-border-radius-md);
+  padding: 8px var(--workeera-space-3);
+  font-size: 12px;
+  color: var(--workeera-text-muted);
+}
+
+.workeera-empapps-wrap .workeera-empapps-jobinfo-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--workeera-primary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.workeera-empapps-wrap a.workeera-empapps-jobinfo-title:hover {
+  text-decoration: underline;
+}
+
+.workeera-empapps-jobinfo-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Empty state                                                                */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-empty {
+  background: var(--workeera-bg-main);
+  border: 1px dashed var(--workeera-border-color);
+  border-radius: var(--workeera-border-radius-md);
+  text-align: center;
+  padding: var(--workeera-space-5) var(--workeera-space-3);
+  color: var(--workeera-text-muted);
+}
+
+.workeera-empapps-empty-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: var(--workeera-bg-muted);
+  border-radius: 50%;
+  color: var(--workeera-text-light);
+  margin-bottom: var(--workeera-space-2);
+}
+
+.workeera-empapps-empty-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--workeera-primary-textcolor);
+  margin-bottom: 4px;
+}
+
+.workeera-empapps-empty-desc {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Confirm-popup button (affirmative)                                         */
+/* -------------------------------------------------------------------------- */
+.workeera-confirm-popup-btns .workeera-confirm-btn {
+  background-color: var(--workeera-primary-color);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.workeera-confirm-popup-btns .workeera-confirm-btn:hover {
+  background-color: var(--workeera-primary-color-hover);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Loader skeleton (employer apps variant)                                    */
+/* -------------------------------------------------------------------------- */
+.workeera-empapps-loadr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.workeera-empapps-loadr .workeera-mangjobs-loderitm {
+  border-radius: var(--workeera-border-radius-md);
+  border: 1px solid var(--workeera-border-color);
+}
+
+.workeera-listin-loadr.workeera-empapps-loadr .workeera-mangjobs-loderitm {
+  background: var(--workeera-bg-main);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive                                                                 */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  .workeera-empapps-item-main {
+    grid-template-columns: auto auto 1fr;
+    grid-template-areas:
+      "chk pic info"
+      "status status status"
+      "actions actions actions";
+    row-gap: var(--workeera-space-2);
+  }
+
+  .workeera-empapps-checkbox-wrap {
+    grid-area: chk;
+  }
+
+  .workeera-empapps-applicant-pic-wrap {
+    grid-area: pic;
+  }
+
+  .workeera-empapps-applicant-info {
+    grid-area: info;
+  }
+
+  .workeera-empapps-status-action {
+    grid-area: status;
+    justify-self: start;
+  }
+
+  .workeera-empapps-actions {
+    grid-area: actions;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .workeera-empapps-filterbar>* {
+    flex: 1 1 100%;
+  }
+
+  .workeera-empapps-bulk-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .workeera-empapps-bulk-count {
+    margin-right: 0;
+  }
+}

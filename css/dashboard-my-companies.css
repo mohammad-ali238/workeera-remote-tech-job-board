@@ -1,0 +1,516 @@
+/**
+ * Workeera — Employer dashboard "My Companies" page styles.
+ *
+ * Styles ONLY the new .workeera-usrcmp-* and .workeera-cmp-* classes. The page
+ * reuses already-styled shared classes (.workeera-usrjobs-header,
+ * .workeera-usrjobs-filterbar, .workeera-usrjobs-search-*,
+ * .workeera-usrjobs-postnew-btn, .workeera-usrjobs-pagination*,
+ * .workeera-usrform-*) — those are NOT restyled here.
+ */
+
+/* ── List holder ─────────────────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-list-holder {
+  position: relative;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.workeera-usrcmp-wrap.workeera-usrjobs-wrap .workeera-usrjobs-filterbar {
+  gap: 0;
+}
+
+/* ── Company card / accordion item ───────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-item {
+  background: var(--workeera-bg-main);
+  border: 1px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-md);
+  box-shadow: var(--workeera-usrform-shadow);
+  overflow: hidden;
+  transition: box-shadow var(--workeera-usrform-transition), border-color var(--workeera-usrform-transition);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-item:hover {
+  box-shadow: var(--workeera-usrform-shadow-md);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-item.workeera-usrcmp-open {
+  border-color: var(--workeera-primary-color);
+}
+
+/* ── Card header ─────────────────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: background var(--workeera-usrform-transition);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-head:hover {
+  background: var(--workeera-bg-soft);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-head-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* Job-count pill */
+.workeera-usrcmp-wrap .workeera-usrcmp-jobs-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--workeera-primary-color);
+  background: var(--workeera-usrform-primary-light);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-jobs-pill svg {
+  flex-shrink: 0;
+}
+
+/* Logo box */
+.workeera-usrcmp-wrap .workeera-usrcmp-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--workeera-border-radius-sm);
+  overflow: hidden;
+  background: var(--workeera-usrform-primary-light);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-logo-ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--workeera-primary-color);
+  text-transform: uppercase;
+}
+
+/* Name + meta */
+.workeera-usrcmp-wrap .workeera-usrcmp-head-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-name {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+  line-height: 1.3;
+  word-break: break-word;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-metaitem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--workeera-text-muted);
+  line-height: 1.4;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-metaitem svg {
+  flex-shrink: 0;
+  color: var(--workeera-text-light);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-metaitem a {
+  color: var(--workeera-primary-color);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-metaitem a:hover {
+  color: var(--workeera-primary-color-hover);
+  text-decoration: underline;
+}
+
+/* Chevron */
+.workeera-usrcmp-wrap .workeera-usrcmp-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--workeera-text-light);
+  transition: transform var(--workeera-usrform-transition), color var(--workeera-usrform-transition);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-item.workeera-usrcmp-open .workeera-usrcmp-chevron {
+  transform: rotate(180deg);
+  color: var(--workeera-primary-color);
+}
+
+/* ── Card body (form) ────────────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-body {
+  display: none; /* collapsed by default; jQuery slideToggle reveals it */
+  padding: 22px;
+  border-top: 1px solid var(--workeera-usrform-border);
+  background: var(--workeera-bg-main);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: auto;
+  padding: 0;
+}
+
+/* ── Item / modal action rows ────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-item-actions,
+.workeera-usrcmp-modal-form .workeera-usrcmp-modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-delete-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 14px;
+  background: transparent;
+  color: var(--workeera-danger-color);
+  border: 1px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--workeera-font-family);
+  cursor: pointer;
+  transition: all var(--workeera-usrform-transition);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-delete-btn:hover {
+  background: var(--workeera-danger-color);
+  border-color: var(--workeera-danger-color);
+  color: #fff;
+}
+
+/* Button loading state (shared for save / create). */
+.workeera-usrcmp-wrap .workeera-btn-loading,
+.workeera-usrcmp-modal-form .workeera-btn-loading {
+  opacity: 0.7;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* ── Form notice ─────────────────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-form-notice,
+.workeera-usrcmp-modal-form .workeera-usrcmp-form-notice {
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-form-notice.is-error,
+.workeera-usrcmp-modal-form .workeera-usrcmp-form-notice.is-error {
+  color: var(--workeera-danger-color);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-form-notice.is-success,
+.workeera-usrcmp-modal-form .workeera-usrcmp-form-notice.is-success {
+  color: var(--workeera-success-color);
+}
+
+/* Inline (item) notice sits after the buttons. */
+.workeera-usrcmp-wrap .workeera-usrcmp-item-actions .workeera-usrcmp-form-notice {
+  margin-left: 4px;
+}
+
+/* Modal notice on its own line. */
+.workeera-usrcmp-modal-form .workeera-usrcmp-form-notice {
+  margin-top: 10px;
+}
+
+/* ── Empty state ─────────────────────────────────────── */
+.workeera-usrcmp-wrap .workeera-usrcmp-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px 24px;
+  background: var(--workeera-bg-main);
+  border: 1.5px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-md);
+  box-shadow: var(--workeera-usrform-shadow);
+  text-align: center;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: var(--workeera-bg-muted);
+  border-radius: 50%;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-empty-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-empty-desc {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  max-width: 320px;
+  line-height: 1.6;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-empty-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  height: 34px;
+  background: var(--workeera-primary-color);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--workeera-font-family);
+  border: none;
+  border-radius: var(--workeera-border-radius-sm);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--workeera-usrform-transition);
+  margin-top: 4px;
+}
+
+.workeera-usrcmp-wrap .workeera-usrcmp-empty-cta:hover {
+  background: var(--workeera-primary-color-hover);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ── Skeleton loader ─────────────────────────────────── */
+.workeera-usrcmp-loder-con .workeera-usrcmp-loadr {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.workeera-usrcmp-loder-con .workeera-usrcmp-loderitm {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: var(--workeera-bg-main);
+  border: 1px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-md);
+  box-shadow: var(--workeera-usrform-shadow);
+}
+
+.workeera-usrcmp-loder-con .workeera-cmploder-logo {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--workeera-border-radius-sm);
+}
+
+.workeera-usrcmp-loder-con .workeera-cmploder-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.workeera-usrcmp-loder-con .workeera-cmploder-name {
+  display: block;
+  width: 45%;
+  min-width: 120px;
+  height: 13px;
+  border-radius: var(--workeera-border-radius-sm);
+}
+
+.workeera-usrcmp-loder-con .workeera-cmploder-meta {
+  display: block;
+  width: 65%;
+  min-width: 160px;
+  height: 11px;
+  border-radius: var(--workeera-border-radius-sm);
+}
+
+.workeera-usrcmp-loder-con .workeera-cmploder-chev {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: var(--workeera-border-radius-sm);
+}
+
+/* Shimmer applied to every skeleton block. */
+.workeera-usrcmp-loder-con .workeera-cmploder-logo,
+.workeera-usrcmp-loder-con .workeera-cmploder-name,
+.workeera-usrcmp-loder-con .workeera-cmploder-meta,
+.workeera-usrcmp-loder-con .workeera-cmploder-chev {
+  background: #eee;
+  background-image: linear-gradient(90deg, #eee 8%, #e2e2e2 18%, #eee 33%);
+  background-size: 800px 100px;
+  background-repeat: no-repeat;
+  animation: workeera-cmp-shimmer 1.1s linear infinite;
+}
+
+@keyframes workeera-cmp-shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* ── Modal ───────────────────────────────────────────── */
+.workeera-usrcmp-modal-form {
+  padding: 24px;
+}
+
+.workeera-usrcmp-modal-form .workeera-usrcmp-modal-title {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+  margin-bottom: 18px;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+@media (max-width: 600px) {
+  .workeera-usrcmp-wrap .workeera-usrcmp-head {
+    align-items: flex-start;
+  }
+
+  .workeera-usrcmp-wrap .workeera-usrcmp-meta {
+    gap: 8px 12px;
+  }
+
+  .workeera-usrcmp-wrap .workeera-usrcmp-item-actions,
+  .workeera-usrcmp-modal-form .workeera-usrcmp-modal-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .workeera-usrcmp-wrap .workeera-usrcmp-item-actions .workeera-usrjobs-postnew-btn,
+  .workeera-usrcmp-wrap .workeera-usrcmp-delete-btn,
+  .workeera-usrcmp-modal-form .workeera-usrcmp-modal-actions .workeera-usrjobs-postnew-btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .workeera-usrcmp-wrap .workeera-usrcmp-item-actions .workeera-usrcmp-form-notice {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .workeera-usrcmp-modal-form {
+    padding: 18px;
+  }
+}
+
+/* ── Add/Edit company popup: wider (700px) + shadow, company-modal only ── */
+.workeera-usrcmp-modal-con .workeera-modal-inner-area {
+  width: 700px;
+  max-width: calc(100% - 32px);
+}
+.workeera-usrcmp-modal-con .workeera-modal-content-area {
+  box-shadow: 0 24px 60px rgba(15, 23, 42, .28), 0 4px 12px rgba(15, 23, 42, .12);
+}
+.workeera-usrcmp-modal-form .workeera-usrcmp-modal-title {
+  display: block;
+  margin-bottom: 14px;
+}
+
+/* ── Tighten the company form (accordion + modal) so it isn't a tall stack ── */
+.workeera-usrcmp-form {
+  gap: 12px;
+}
+.workeera-usrcmp-form .workeera-usrform-photo-upload {
+  width: 84px;
+  height: 84px;
+}
+/* Name + website sit side-by-side beside the logo. */
+.workeera-usrcmp-form .workeera-usrform-photo-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+}
+/* Tagline + employees side-by-side. */
+.workeera-usrcmp-form .workeera-grid-two-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ── Responsive: stack on mobile ─────────────────────────────────────── */
+@media (max-width: 767px) {
+  .workeera-usrcmp-modal-con .workeera-modal-inner-area {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+  }
+  .workeera-usrcmp-form .workeera-usrform-photo-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .workeera-usrcmp-form .workeera-usrform-photo-upload {
+    align-self: center;
+  }
+  .workeera-usrcmp-form .workeera-usrform-photo-fields,
+  .workeera-usrcmp-form .workeera-grid-two-one {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Company limit note (replaces Add New when the per-user cap is reached). */
+.workeera-usrcmp-wrap .workeera-usrcmp-limit-note {
+	font-size: 12.5px;
+	font-weight: 600;
+	color: var(--workeera-text-muted, #64748b);
+}

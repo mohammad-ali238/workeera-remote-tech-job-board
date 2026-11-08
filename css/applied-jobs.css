@@ -1,0 +1,318 @@
+.workeera-appliedjobs-wrap {
+  display: inline-block;
+  width: 100%;
+  padding: 48px 16px;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+  letter-spacing: -0.3px;
+}
+
+/* Filter bar */
+.workeera-appliedjobs-wrap .workeera-applied-filterbar {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-search-wrap {
+  position: relative;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-search-icon {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--workeera-text-muted);
+  display: flex;
+  align-items: center;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-field-input,
+.workeera-appliedjobs-wrap .workeera-applied-field-select {
+  width: 100%;
+  height: 34px;
+  padding: 0 10px;
+  font-size: 13px;
+  font-family: var(--workeera-font-family);
+  color: var(--workeera-primary-textcolor);
+  background: var(--workeera-bg-main);
+  border: 1.5px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-sm);
+  outline: none;
+  transition: border-color 0.18s ease;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-search-wrap .workeera-applied-field-input {
+  padding-left: 32px;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-field-select {
+  padding-right: 28px;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.5'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 9px center;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-field-input:focus,
+.workeera-appliedjobs-wrap .workeera-applied-field-select:focus {
+  border-color: var(--workeera-usrform-border-focus);
+  box-shadow: 0 0 0 3px rgba(91, 76, 245, 0.1);
+}
+
+/* List container */
+.workeera-appliedjobs-wrap .workeera-applied-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: var(--workeera-bg-main);
+  border: 1.5px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-md);
+  overflow: hidden;
+}
+
+/* List item */
+.workeera-appliedjobs-wrap .workeera-applied-item {
+  border-bottom: 1px solid var(--workeera-usrform-border);
+  transition: background 0.18s;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-item:last-child {
+  border-bottom: none;
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-item:hover {
+  background: var(--workeera-bg-soft);
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-item-main {
+  display: grid;
+  grid-template-columns: 1fr 100px 80px;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 12px;
+}
+
+/* Info column */
+.workeera-applied-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.workeera-applied-jobtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.workeera-applied-company {
+  font-size: 12px;
+  color: var(--workeera-text-muted);
+}
+
+.workeera-applied-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 2px;
+}
+
+.workeera-applied-meta-date {
+  font-size: 11.5px;
+  color: var(--workeera-text-light);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Status badge */
+.workeera-applied-status {
+  text-align: center;
+}
+
+.workeera-applied-status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.workeera-applied-status-pending {
+  background: var(--workeera-lightwarning-color);
+  color: var(--workeera-warning-color);
+}
+
+.workeera-applied-status-reviewed {
+  background: var(--workeera-lightinfo-color);
+  color: var(--workeera-info-color);
+}
+
+.workeera-applied-status-shortlisted {
+  background: var(--workeera-lightsuccess-color);
+  color: var(--workeera-success-color);
+}
+
+.workeera-applied-status-rejected {
+  background: var(--workeera-lightdanger-color);
+  color: var(--workeera-danger-color);
+}
+
+.workeera-applied-status-withdrawn {
+  background: var(--workeera-bg-muted);
+  color: var(--workeera-text-muted);
+}
+
+/* Withdrawn application — the row stays in the list but fades out gray;
+   the withdraw button is gone and there is no way to undo it. */
+.workeera-appliedjobs-wrap .workeera-applied-item-withdrawn {
+  opacity: 0.55;
+  filter: grayscale(1);
+}
+
+.workeera-appliedjobs-wrap .workeera-applied-item-withdrawn:hover {
+  background: transparent;
+}
+
+/* Action buttons */
+.workeera-applied-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.workeera-applied-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: none;
+  border: none;
+  border-radius: var(--workeera-border-radius-sm);
+  cursor: pointer;
+  color: var(--workeera-text-muted);
+  transition: all 0.18s;
+}
+
+.workeera-applied-action-btn:hover {
+  background: var(--workeera-bg-muted);
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-applied-withdraw-btn:hover {
+  background: var(--workeera-lightdanger-color);
+  color: var(--workeera-danger-color);
+}
+
+/* Empty state */
+.workeera-applied-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px 24px;
+  background: var(--workeera-bg-main);
+  border: 1.5px solid var(--workeera-usrform-border);
+  border-radius: var(--workeera-border-radius-md);
+  text-align: center;
+}
+
+.workeera-applied-empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: var(--workeera-bg-muted);
+  border-radius: 50%;
+  color: #94a3b8;
+}
+
+.workeera-applied-empty-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--workeera-primary-textcolor);
+}
+
+.workeera-applied-empty-desc {
+  font-size: 13px;
+  color: var(--workeera-text-muted);
+  max-width: 300px;
+}
+
+.workeera-applied-empty-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  height: 34px;
+  background: var(--workeera-primary-color);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: var(--workeera-border-radius-sm);
+  text-decoration: none;
+  transition: background 0.18s;
+}
+
+.workeera-applied-empty-cta:hover {
+  background: var(--workeera-primary-color-hover);
+  color: #fff;
+}
+
+.workeera-applied-loadr,
+.workeera-recmnd-loadr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.workeera-applied-loadr .workeera-mangjobs-loderitm,
+.workeera-recmnd-loadr .workeera-mangjobs-loderitm {
+  border-radius: var(--workeera-border-radius-md);
+  border: 1px solid var(--workeera-border-color);
+}
+
+/* Responsive */
+@media (max-width: 660px) {
+  .workeera-applied-filterbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .workeera-applied-filterbar .workeera-applied-search-wrap {
+    grid-column: 1 / -1;
+  }
+
+  .workeera-applied-item-main {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .workeera-applied-status,
+  .workeera-applied-actions {
+    text-align: left;
+    justify-content: flex-start;
+  }
+}
